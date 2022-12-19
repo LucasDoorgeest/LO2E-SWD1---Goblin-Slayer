@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* Footer */
+/* Header */
 
 #logo{
     width: 7.5vw;
@@ -58,7 +58,7 @@ header nav ul #nav1Active a{
     font-size: 1.3em;
 }
 
-/* Footer */
+/* Header */
 
 /* Main */
 
@@ -179,3 +179,26 @@ main{
 
 
 /* Footer */
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    background-color: #2D012F;
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #680B53; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #680B53; 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2D012F; 
+  }
+
+/* Scrollbar */
