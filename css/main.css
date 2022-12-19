@@ -18,45 +18,54 @@
     height: 70%;
     top: 50vh;
 }
+
 #logo{
     width: 7.5vw;
 }
+
 header{
     position: sticky;
     top: 0;
 }
+
 header nav ul{
     display: flex;
-
     align-items: center;
     gap: 5rem;
 }
+
 header nav ul li{
     list-style: none;
 } 
+
 header nav ul #nav2 :hover, #nav3 :hover, #nav4 :hover, #nav5 :hover, #nav6 :hover, #nav7 :hover{
     padding: 5px;
     background-color: #81335B;
     border-radius: 5px;
 }
+
 header nav ul li a:hover{
     font-size: 1.5em;
 }
+
 header nav ul #nav2 a, #nav3 a, #nav4 a, #nav5 a, #nav6 a, #nav7 a{
     text-decoration: none;
     color: whitesmoke;
     font-size: 1.3em;
 }
+
 #nav1Active{
     font-style: underline;
     background-color: #81335B;
 }
+
 header nav ul #nav1Active{
     padding: 5px;
     background-color: #81335B;
     border-radius: 5px;
     color: whitesmoke;
 }
+
 header nav ul #nav1Active a{
 color: whitesmoke;
 font-size: 1.3em;
