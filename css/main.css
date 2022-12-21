@@ -92,7 +92,7 @@ main{
 /* Hide the images by default */
 .mySlides {
     display: none;
-  }
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -169,7 +169,6 @@ main{
 }
 
 .slideshowimg{
-    height: 15vh;
     width: 100vw;
 }
 
@@ -193,12 +192,8 @@ main{
   }
    
   ::-webkit-scrollbar-thumb {
-    background: #680B53; 
+    background: #680B53;
     border-radius: 10px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #2D012F; 
   }
 
 /* Scrollbar */
