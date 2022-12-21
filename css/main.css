@@ -27,7 +27,7 @@ header nav ul li{
     list-style: none;
 } 
 
-header nav ul #nav2 :hover, #nav3 :hover, #nav4 :hover, #nav5 :hover, #nav6 :hover, #nav7 :hover{
+header nav ul #nav1 :hover, #nav2 :hover, #nav3 :hover, #nav4 :hover, #nav5 :hover, #nav6 :hover, #nav7 :hover{
     padding: 5px;
     background-color: #81335B;
     border-radius: 5px;
@@ -37,22 +37,13 @@ header nav ul li a:hover{
     font-size: 1.5em;
 }
 
-header nav ul #nav2 a, #nav3 a, #nav4 a, #nav5 a, #nav6 a, #nav7 a{
-    text-decoration: none;
+header nav ul #nav1 a, #nav2 a, #nav2Active a, #nav3 a, #nav3Active a, #nav4 a, #nav4Active a, #nav5 a, #nav5Active a, #nav6 a, #nav6Active a, #nav7 a, #nav7Active a{
     color: whitesmoke;
     font-size: 1.3em;
 }
 
-#nav1Active{
-    font-style: underline;
-    background-color: #81335B;
-}
-
-header nav ul #nav1Active{
-    padding: 5px;
-    background-color: #81335B;
-    border-radius: 5px;
-    color: whitesmoke;
+#nav1 a, #nav2 a, #nav3 a, #nav4 a, #nav5 a, #nav6 a, #nav7 a{
+    text-decoration: none;
 }
 
 header nav ul #nav1Active a{
@@ -65,40 +56,110 @@ header nav ul #nav1Active a{
     grid-row: 1;
     place-self: center;
 }
+#nav1{
+    grid-column: 4;
+    grid-row: 1;
+    place-self: center;
+}
 #nav1Active{
     grid-column: 4;
     grid-row: 1;
     place-self: center;
+    font-style: underline;
+    background-color: #81335B;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
 }
 #nav2{
     grid-column: 5;
     grid-row: 1;
     place-self: center;
 }
+#nav2Active{
+    grid-column: 5;
+    grid-row: 1;
+    place-self: center;
+    font-style: underline;
+    background-color: #81335B;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
 #nav3{
     grid-column: 6;
     grid-row: 1;
     place-self: center;
+}
+#nav3Active{
+    grid-column: 6;
+    grid-row: 1;
+    place-self: center;
+    font-style: underline;
+    background-color: #81335B;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
 }
 #nav4{
     grid-column: 7;
     grid-row: 1;
     place-self: center;
 }
+#nav4Active{
+    grid-column: 7;
+    grid-row: 1;
+    place-self: center;
+    font-style: underline;
+    background-color: #81335B;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
 #nav5{
     grid-column: 8;
     grid-row: 1;
     place-self: center;
+}
+#nav5Active{
+    grid-column: 8;
+    grid-row: 1;
+    place-self: center;
+    font-style: underline;
+    background-color: #81335B;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
 }
 #nav6{
     grid-column: 9;
     grid-row: 1;
     place-self: center;
 }
+#nav6Active{
+    grid-column: 9;
+    grid-row: 1;
+    place-self: center;
+    font-style: underline;
+    background-color: #81335B;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
 #nav7{
     grid-column: 10;
     grid-row: 1;
     place-self: center;
+}
+#nav7Active{
+    grid-column: 10;
+    grid-row: 1;
+    place-self: center;
+    font-style: underline;
+    background-color: #81335B;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
 }
 
 /* Header */
@@ -321,3 +382,4 @@ footer{
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
+
