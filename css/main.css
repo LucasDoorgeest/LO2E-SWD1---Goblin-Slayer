@@ -14,7 +14,6 @@
 header{
     position: sticky;
     top: 0;
-    z-index: 3;
 }
 
 header nav ul{
@@ -173,11 +172,9 @@ header nav ul #nav1Active a{
     height: 300vh;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    z-index: 1;
 }
 
 #berg{
-    z-index: 3;
     position: fixed;
     width: 110vw;
     height: 70%;
@@ -188,10 +185,13 @@ main{
     box-sizing:border-box;
 }
 
+/* Einde Main */
+
+/* Main Home Pagina */
+
 /* Slideshow container */
 
 .slideshow-container {
-    z-index: 2;
     width: 75vw;
     position: relative;
     margin: auto;
@@ -282,7 +282,39 @@ main{
     border-radius: 20px;
 }
 
-/* Einde Main */
+/* Einde Main Home*/
+
+/* Main Rating Tabel */
+
+    .ratingtable > table, th, td{
+        border: 2px solid #2D012F;
+    }
+
+    th{
+        font-size: 30px;
+    }
+
+    th, td{
+        padding: 2vh;
+        border-radius: 5px;
+        height: 10vh;
+        width: 30vw;
+    }
+
+    table{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2vh;
+        padding-top: 0;
+        width: 90vw;
+        height: 80vh;
+        margin-left: 5vw;
+        background-color: #717171;
+    }
+
+/* Einde Main Rating Tabel */
+
 
 /* Scrollbar */
 
