@@ -7,15 +7,7 @@
 
 /* Header */
 
-.footer1{
-    background: rgb(43, 0, 30);
-    width: 100vw;
-    padding-top: 40px;
-    color: white;
-    position: relative;
-    top: 250vh;
-    background-image: url(../images/stars.png);
-}
+
 
 #logo{
     width: 7.5vw;
@@ -323,6 +315,7 @@ main{
     position: relative;
     top: 250vh;
     background-image: url(../images/stars.png);
+    z-index: 4;
 }
 
 .footer2{
