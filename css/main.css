@@ -5,7 +5,7 @@
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/* Header */
+/* ------------------------------------------------------------- Header --------------------------------------------------------------- */
 
 #logo{
     width: 7.5vw;
@@ -179,7 +179,7 @@ header nav ul #nav1Active a{
 
 /* Header */
 
-/* Main */
+/* ---------------------------------------------------- Main -------------------------------------------------------------------------- */
 
 .home{
     background-image: url(../images/Sunsetgaming.png);
@@ -198,6 +198,7 @@ header nav ul #nav1Active a{
 
 main{
     box-sizing:border-box;
+    min-height: 100vh;
 }
 
 /* Main Home Pagina */
@@ -297,7 +298,7 @@ main{
 
 /* Einde Main Home*/
 
-/* Main Rating Tabel */
+/* -------------------------------------------------------- Main Rating Tabel ---------------------------------------------------- */
 
     .ratingtable > table, th, td{
         border: 2px solid #2D012F;
@@ -322,12 +323,13 @@ main{
         width: 90vw;
         height: 153vh;
         margin-left: 5vw;
+        background-color:#717171;
     }
 
 /* Einde Main Rating Tabel */
 
 
-/* Scrollbar */
+/* ----------------------------------------------------------- Scrollbar -------------------------------------------------------------- */
 
 ::-webkit-scrollbar {
     background-color: #2D012F;
@@ -346,7 +348,7 @@ main{
 
 /* Einde Scrollbar */
 
-/* Footer */
+/* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
 
 .footer1 {
     background: rgb(43, 0, 30);
@@ -366,7 +368,7 @@ main{
     padding-top: 40px;
     color: white;
     position: relative;
-    top: 82vh;
+    margin-top: 10vh;
 }
 
 .footer3{
@@ -444,12 +446,12 @@ main{
     text-transform: capitalize;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* background all pages */
+/* ------------------------------------------------------- Background all pages ------------------------------------------------------- */
 
 .background{
     background-image: url(../images/background_ala3.png);
     background-size: 100% 100%;
+    min-height: 100vh;
     height: auto;
     background-repeat: no-repeat;
     overflow-x: hidden;
