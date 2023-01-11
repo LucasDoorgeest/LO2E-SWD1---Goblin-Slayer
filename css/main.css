@@ -339,12 +339,13 @@ main{
 
 /* Footer */
 
-.footer1{
+.footer1 {
     background: rgb(43, 0, 30);
     width: 100vw;
     padding-top: 40px;
     color: white;
     position: relative;
+    height: 35vh;
     top: 250vh;
     background-image: url(../images/stars.png);
     z-index: 5;
