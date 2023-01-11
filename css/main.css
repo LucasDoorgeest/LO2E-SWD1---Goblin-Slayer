@@ -493,3 +493,31 @@ main{
     overflow-x: hidden;
 }
 
+/* Contact pagina */
+
+.contact{
+    background-color: #680B53;
+    width: 80vw;
+    height: 75vh;
+    border-radius: 5%;
+    position: relative;
+    left: 10vw;
+    border: solid 5px #2D012F;
+}
+
+#contact-kop{
+    text-align: center;
+    padding-top: 2.5vh;
+}
+
+#contact-kop1{
+    color: #310034;
+    font-size: 2rem;
+    padding: 0.5vw;
+}
+
+#contact-kop2{
+    color: #0000003e;
+    font-size: 1.2rem;
+}
+
