@@ -203,7 +203,7 @@ main{
 
 /* Main Home Pagina */
 
-/* Slideshow container */
+/* -------------------------------------------------- Slideshow ------------------------------------------------------------------------ */
 
 .slideshow-container {
     width: 75vw;
@@ -211,12 +211,10 @@ main{
     margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
     display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -232,18 +230,15 @@ main{
     user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -269,14 +264,14 @@ main{
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: orange;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: yellow;
 }
 
 /* Fading animation */
@@ -347,6 +342,47 @@ main{
   }
 
 /* Einde Scrollbar */
+
+/* --------------------------------------------------------------Rating geven ---------------------------------------------------------- */
+
+.ratingleeg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: black 2px solid;
+    border-radius: 2rem;
+    width: 50vw;
+    height: 30vh;
+    background-color: #8CBEFF;
+    margin: 5vh;
+}
+
+#geefrating{
+    border-radius: 1rem;
+    padding-left: 5vw;
+    height: 10vw;
+    width: 25vw;
+}
+
+#ratingbutton1{
+    
+}
+
+#ratingbutton2{
+
+}
+
+.radiobuttonrating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: gray 2px solid;
+    border-radius: 1rem;
+    height: 20vh;
+    padding: 0 2vh 0 2vh;
+    background-color: #f2f2f2;
+}
 
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
 
