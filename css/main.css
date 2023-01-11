@@ -198,6 +198,7 @@ header nav ul #nav1Active a{
 
 main{
     box-sizing:border-box;
+    min-height: 100vh;
 }
 
 /* Main Home Pagina */
