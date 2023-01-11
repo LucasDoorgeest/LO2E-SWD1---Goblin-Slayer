@@ -356,7 +356,7 @@ main{
     position: relative;
     top: 250vh;
     background-image: url(../images/stars.png);
-    z-index: 4;
+    z-index: 5;
 }
 
 .footer2{
@@ -366,6 +366,11 @@ main{
     color: white;
     position: relative;
     top: 82vh;
+}
+
+.footer3{
+     z-index: 4;
+     position: fixed;
 }
 
 .footer-content{
