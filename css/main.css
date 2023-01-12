@@ -177,7 +177,7 @@ header nav ul #nav1Active a{
     color: whitesmoke;
 }
 
-/* Header */
+/* Einde Header */
 
 /* ---------------------------------------------------- Main -------------------------------------------------------------------------- */
 
@@ -201,7 +201,7 @@ main{
     min-height: 100vh;
 }
 
-/* Main Home Pagina */
+/* Einde Home Pagina */
 
 /* -------------------------------------------------- Slideshow ------------------------------------------------------------------------ */
 
@@ -249,7 +249,6 @@ main{
     text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
     font-size: 20px;
@@ -258,7 +257,6 @@ main{
     top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
     height: 15px;
@@ -274,7 +272,6 @@ main{
     background-color: yellow;
 }
 
-/* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -293,7 +290,7 @@ main{
 
 /* Einde Main Home*/
 
-/* -------------------------------------------------------- Main Rating Tabel ---------------------------------------------------- */
+/* -------------------------------------------------------- Rating Tabel ---------------------------------------------------- */
 
     .ratingtable > table, th, td{
         border: 2px solid #2D012F;
@@ -321,8 +318,7 @@ main{
         background-color:#717171;
     }
 
-/* Einde Main Rating Tabel */
-
+/* Einde Rating Tabel */
 
 /* ----------------------------------------------------------- Scrollbar -------------------------------------------------------------- */
 
@@ -343,9 +339,66 @@ main{
 
 /* Einde Scrollbar */
 
+/* -------------------------------------------------------------- Games ---------------------------------------------------------------- */
+
+.descriptionall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    color: white;
+    margin-top: 5vh;
+}
+
+.descriptioninfo{
+    display: flex;
+    flex-direction: column;
+    border: black 2px solid;
+    border-radius: 1rem;
+    height: 60vh;
+    align-items: center;
+    width: 30vw;
+}
+
+.imgdemo{
+    border-radius: 1rem;
+    width: 60vw;
+}
+
+.imgdescription{
+    width: 30vw;
+    border-radius: 1rem;
+    border: black 2px solid;
+}
+
+.informatie{
+    font-size: 2rem;
+}
+
+.alldemo{
+    position: relative;
+}
+
+.textinimage{
+    position: absolute;
+    top: 60vh;
+    left: 25vw;
+}
+
 /* --------------------------------------------------------------Rating geven ---------------------------------------------------------- */
 
-.ratingleeg{
+.ratingmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratingh1{
+    font-size: 3rem;
+}
+
+.ratingall{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -353,8 +406,20 @@ main{
     border-radius: 2rem;
     width: 50vw;
     height: 30vh;
-    background-color: #8CBEFF;
+    background-color: #f2f2f2;
     margin: 5vh;
+}
+
+.ratingleeg{
+    background-color: #f2f2f2;
+}
+
+.ratinggoed{
+    background-color: #8CBEFF;
+}
+
+.ratingslecht{
+    background-color: #F88888;
 }
 
 #geefrating{
@@ -364,25 +429,20 @@ main{
     width: 25vw;
 }
 
-#ratingbutton1{
-    
-}
-
-#ratingbutton2{
-
-}
-
-.radiobuttonrating{
+.ratinggeven{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     border: gray 2px solid;
     border-radius: 1rem;
-    height: 20vh;
+    height: 10vh;
+    width: 10vw;
     padding: 0 2vh 0 2vh;
-    background-color: #f2f2f2;
+    background-color: white;
 }
+
+/* Einde rating geven */
 
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
 
@@ -393,7 +453,7 @@ main{
     color: white;
     position: relative;
     height: 35vh;
-    top: 250vh;
+    top: 180vh;
     background-image: url(../images/stars.png);
     z-index: 5;
 }
@@ -487,9 +547,9 @@ main{
 .background{
     background-image: url(../images/background_ala3.png);
     background-size: 100% 100%;
-    min-height: 100vh;
     height: auto;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow-x: hidden;
 }
 
