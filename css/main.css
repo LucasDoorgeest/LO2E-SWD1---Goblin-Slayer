@@ -15,6 +15,7 @@ header{
     position: sticky;
     top: 0;
     padding-bottom: 3vh;
+    z-index: 10;
 }
 
 header nav ul{
@@ -198,7 +199,6 @@ header nav ul #nav1Active a{
 
 main{
     box-sizing:border-box;
-    min-height: 100vh;
 }
 
 /* Einde Home Pagina */
@@ -453,7 +453,7 @@ main{
     color: white;
     position: relative;
     height: 35vh;
-    top: 180vh;
+    top: 280vh;
     background-image: url(../images/stars.png);
     z-index: 5;
 }
@@ -553,12 +553,20 @@ main{
     overflow-x: hidden;
 }
 
+.background1{
+    background-image: url(../images/background_ala3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
 /* Contact pagina */
 
 .contact{
     background-color: #680B53;
     width: 80vw;
-    height: 75vh;
+    height: 69vh;
     border-radius: 5%;
     position: relative;
     left: 10vw;
@@ -577,7 +585,7 @@ main{
 }
 
 #contact-kop2{
-    color: #0000003e;
+    color: #00000093;
     font-size: 1.2rem;
 }
 
