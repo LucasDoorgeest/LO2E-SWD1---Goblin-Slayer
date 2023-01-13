@@ -576,8 +576,8 @@ main{
 }
 
 #contact-box{
-    width: 18vw;
-    height: 18vw;
+    width: 15vw;
+    height: 15vw;
     background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
     z-index: 4;
 }
@@ -611,7 +611,7 @@ main{
     font-size: 1rem;
     padding: 1vw;
     text-align: center;
-    color: rgb(72, 35, 66);
+    color: rgb(255, 211, 246);
 }
 
 .text-box{
@@ -620,8 +620,12 @@ main{
 }
 
 #text-box{
+    display: grid;
+    grid-template-columns: repeat( 2, 32vw);
+    grid-template-rows: repeat( 5, 7vw);
+    grid-template-columns: (2, 32vw);
     width: 65vw;
-    height: 40vw;
+    height: 30vw;
     background-color: #5b004c;
     z-index: 3;
     position: relative;
@@ -634,10 +638,13 @@ main{
     position: relative;
     top: 10vh;
     padding: 1vw;
+    grid-column: 1/2;
+    grid-row: 1;
 }
 
 #contact-form{
     display: flex;
     position: relative;
     top: 10vh;
-}
+    
+}   
