@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: monospace;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* ------------------------------------------------------------- Header --------------------------------------------------------------- */
@@ -564,27 +568,75 @@ main{
 /* Contact pagina */
 
 .contact{
-    background-color: #680B53;
-    width: 80vw;
-    height: 69vh;
-    border-radius: 5%;
-    position: relative;
-    left: 10vw;
-    border: solid 5px #2D012F;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+
 }
 
-#contact-kop{
+#contact-box{
+    width: 18vw;
+    height: 18vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+}
+
+#map{
+    font-size: 4rem;
+    list-style: none;
     text-align: center;
-    padding-top: 2.5vh;
+    padding: 1vw;
+    
 }
 
-#contact-kop1{
-    color: #310034;
+#map a{
+    background: -moz-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: -webkit-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: linear-gradient(to top, #ffdd00 0%, #ff0084 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+#contact-box1{
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+}
+
+#contact-box2{
+    font-size: 1rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(72, 35, 66);
+}
+
+.text-box{
+    display: flex;
+    justify-content: center;
+}
+
+#text-box{
+    width: 65vw;
+    height: 40vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+}
+
+#contact-text{
     font-size: 2rem;
-    padding: 0.5vw;
+    position: relative;
+    top: 10vh;
+    padding: 1vw;
 }
 
-#contact-kop2{
-    color: #00000093;
-    font-size: 1.2rem;
+#contact-form{
+    display: flex;
+    position: relative;
+    top: 10vh;
 }
