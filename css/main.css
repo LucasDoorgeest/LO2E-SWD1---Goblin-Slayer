@@ -199,6 +199,7 @@ header nav ul #nav1Active a{
     width: 110vw;
     height: 60%;
     top: 45vh;
+    z-index: 2;
 } 
 
 main{
@@ -213,11 +214,12 @@ main{
     width: 75vw;
     position: relative;
     margin: auto;
-    transform: translateY(450%);
+    transform: translateY(200%);
+    z-index: 1;
 }
 
 .dotsslideshow{
-    transform: translateY(9600%);
+    transform: translateY(4250%);
 }
 
 .mySlides {
@@ -502,6 +504,37 @@ table{
 /* Einde rating geven */
 
 /* -------------------------------------------------------------- Games ----------------------------------------------------------------- */
+
+.containergames{
+    width: 90vw;
+    padding-left: 5vw;
+}
+
+.gamescard{
+    width: 15vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vh;
+    border: #F88888 2px solid;
+    background-image: url(../images/stars.png);
+}
+
+.vijfcards{
+    display: flex;
+    justify-content: center;
+}
+
+.gamescard > a{
+    text-decoration: none;
+}
+
+.titelgames{
+    font-size: 1.5rem;
+    color: #ffdd00 ;
+}
+
 
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
 
