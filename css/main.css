@@ -477,6 +477,16 @@ main{
      position: fixed;
 }
 
+.footer-contact{
+    background: rgb(43, 0, 30);
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+    position: relative;
+    margin-top: 10vh;
+    bottom: 14vh;
+}
+
 .footer-content{
     display: flex;
     align-items: center;
@@ -541,6 +551,15 @@ main{
     bottom: 6vh;
 }
 
+.footer-bottom-contact{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    background: rgb(32, 0, 23);
+    position: relative;
+    bottom: 7vh;
+}
+
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
@@ -566,6 +585,15 @@ main{
     overflow-x: hidden;
 }
 
+.background-contact{
+    background-image: url(../images/background_ala3.png);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
 /* Contact pagina */
 
 .contact{
@@ -580,6 +608,7 @@ main{
     height: 15vw;
     background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
     z-index: 4;
+    border-radius: 1vw;
 }
 
 #map{
@@ -598,6 +627,7 @@ main{
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     
 }
 
@@ -605,6 +635,7 @@ main{
     font-size: 1.4rem;
     text-align: center;
     color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #contact-box2{
@@ -612,6 +643,7 @@ main{
     padding: 1vw;
     text-align: center;
     color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .text-box{
@@ -620,17 +652,15 @@ main{
 }
 
 #text-box{
-    display: grid;
-    grid-template-columns: repeat( 2, 32vw);
-    grid-template-rows: repeat( 5, 7vw);
-    grid-template-columns: (2, 32vw);
-    width: 65vw;
-    height: 30vw;
+    width: 60vw;
+    height: 27vw;
     background-color: #5b004c;
     z-index: 3;
     position: relative;
     text-align: center;
     bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
 }
 
 #contact-text{
@@ -638,13 +668,124 @@ main{
     position: relative;
     top: 10vh;
     padding: 1vw;
-    grid-column: 1/2;
-    grid-row: 1;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#voornaam{
+    position: relative;
+    top: 6vw;
+    right: 1vw;
+    font-size: 1.3rem;
+    width: 15vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#voornaam:focus{
+    outline: none;
+}
+
+#achternaam{
+    position: relative;
+    top: 10vw;
+    right: 16.5vw;
+    font-size: 1.3rem;
+    width: 15vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#achternaam:focus{
+    outline: none;
+}
+
+#contact-mail{
+    position: relative;
+    top: 12vh;
+    right: 12vw;
+    font-size: 1.3rem;
+    width: 20vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#contact-mail:focus{
+    outline: none;
 }
 
 #contact-form{
-    display: flex;
     position: relative;
-    top: 10vh;
-    
-}   
+    text-align: left;
+    left: 3.5vw;
+    top: 11.5vw;
+    font-size: 1.3rem;
+    width: 15vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#contract-form:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(200, 200, 200);
+}
+
+#contact-bericht{
+    position: relative;
+    top: 2.6vh;
+    left: 8.5vw;
+    font-size: 1.3rem;
+    width: 20vw;
+    height: 20vh;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#verzend{
+    position: relative;
+    left: 12vw;
+    bottom: 4vh;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: -moz-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: -webkit-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: linear-gradient(to top, #ffdd00 0%, #ff0084 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(41, 41, 41);
+}
+
+#verzend:active {
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+  }
