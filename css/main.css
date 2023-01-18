@@ -421,6 +421,7 @@ table{
 .imgdemo{
     border-radius: 1rem;
     width: 60vw;
+    height: 60vh;
 }
 
 .imgdescription{

@@ -1,4 +1,4 @@
-import games from '../gamedata/2.json' assert {type: 'json'}
+import games from '../../gamedata/2.json' assert {type: 'json'}
 var gameinfo = games;
 
 var gameinfo = games;
