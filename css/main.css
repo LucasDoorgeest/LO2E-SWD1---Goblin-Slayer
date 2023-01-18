@@ -512,13 +512,18 @@ table{
 
 .gamescard{
     width: 15vw;
-    height: 20vh;
+    height: 25vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 2vh;
     border: #F88888 2px solid;
     background-image: url(../images/stars.png);
+}
+
+.gameimg{
+    width: 15vw;
+    object-fit: cover;
 }
 
 .vijfcards{
@@ -531,10 +536,24 @@ table{
 }
 
 .titelgames{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #ffdd00 ;
 }
 
+@media only screen and (max-width: 800px) {
+    .vijfcards {
+        flex-direction: column;
+    }
+    .gamescard{
+        width: 80vw;
+        height: 35vh;
+    }
+    .gameimg{
+        width: 80vw;
+        height: 28vh;
+        object-fit: cover;
+    }
+  }
 
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
 

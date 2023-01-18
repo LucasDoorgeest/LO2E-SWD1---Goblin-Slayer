@@ -1,0 +1,191 @@
+{
+    "success": true,
+    "data": {
+        "type": "game",
+        "name": "War In Other Space",
+        "steam_appid": 1830950,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "The universe has serious problems and its salvation has been entrusted to you․ You must be extremely vigilant and be able to overcome all trials, collect all the strange objects that they will require. You need to clear the universe of those strange creatures that have come to destroy it all.<br>All the scenes of the game <strong>War In Other Space</strong>, First- Person Shooter, take place in another universe, unknown to us. Game is a role-playing, you have to defeat all the enemies and pass all of the 15 maps. <br>The game is full of visual and sound effects, beautiful models, and fantastic universe which make the atmosphere more impressive. <br>Opponents are made with artificial intelligence due to which the game gets cooler.<br>Simple rules, space weapons, war, explosions, grenades, aliens, and of course 15 different maps.You must defeat your enemies and so go through all the worlds and save the Other Universe. Thanks to these the game becomes dynamic and interesting.<br>It's the first part of the game, the second one will be more fantastic and extensive.<br><br><strong><h2 class=\"bb_tag\"><ul class=\"bb_ul\"><li>This is Indie game and I expect your support</li></ul></h2></strong><br><br><a href=\"https://steamcommunity.com/linkfilter/?url=https://discord.gg/a76dbJy2J3\" target=\"_blank\" rel=\" noopener\"  > <img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1830950/extras/discord__1_.png?t=1645820558\" /></a><br><br><strong>-----------------------------------------------------------------------------------------------------------</strong><h2 class=\"bb_tag\"><strong>Where are you ? This is an undiscovered universe</strong></h2><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1830950/extras/Untitled-1.png?t=1645820558\" /><br><br><br><strong>-----------------------------------------------------------------------------------------------------------</strong><br><br><strong><h2 class=\"bb_tag\">Yah. You are so cool</h2></strong><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1830950/extras/1-1.png?t=1645820558\" /><br><br><br><strong>-----------------------------------------------------------------------------------------------------------</strong><h2 class=\"bb_tag\"><strong>What is this ? I don't know</strong></h2><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1830950/extras/Untitled-4.png?t=1645820558\" />",
+        "about_the_game": "The universe has serious problems and its salvation has been entrusted to you․ You must be extremely vigilant and be able to overcome all trials, collect all the strange objects that they will require. You need to clear the universe of those strange creatures that have come to destroy it all.<br>All the scenes of the game <strong>War In Other Space</strong>, First- Person Shooter, take place in another universe, unknown to us. Game is a role-playing, you have to defeat all the enemies and pass all of the 15 maps. <br>The game is full of visual and sound effects, beautiful models, and fantastic universe which make the atmosphere more impressive. <br>Opponents are made with artificial intelligence due to which the game gets cooler.<br>Simple rules, space weapons, war, explosions, grenades, aliens, and of course 15 different maps.You must defeat your enemies and so go through all the worlds and save the Other Universe. Thanks to these the game becomes dynamic and interesting.<br>It's the first part of the game, the second one will be more fantastic and extensive.<br><br><strong><h2 class=\"bb_tag\"><ul class=\"bb_ul\"><li>This is Indie game and I expect your support</li></ul></h2></strong><br><br><a href=\"https://steamcommunity.com/linkfilter/?url=https://discord.gg/a76dbJy2J3\" target=\"_blank\" rel=\" noopener\"  > <img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1830950/extras/discord__1_.png?t=1645820558\" /></a><br><br><strong>-----------------------------------------------------------------------------------------------------------</strong><h2 class=\"bb_tag\"><strong>Where are you ? This is an undiscovered universe</strong></h2><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1830950/extras/Untitled-1.png?t=1645820558\" /><br><br><br><strong>-----------------------------------------------------------------------------------------------------------</strong><br><br><strong><h2 class=\"bb_tag\">Yah. You are so cool</h2></strong><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1830950/extras/1-1.png?t=1645820558\" /><br><br><br><strong>-----------------------------------------------------------------------------------------------------------</strong><h2 class=\"bb_tag\"><strong>What is this ? I don't know</strong></h2><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1830950/extras/Untitled-4.png?t=1645820558\" />",
+        "short_description": "War In Other Space, Role-playing game, first-person shooter, there are 15 maps in the game, smart enemies with artificial intelligence, cool Science Fiction Weapons and all this in other Space",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/header.jpg?t=1645820558",
+        "website": null,
+        "pc_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7, 8, 10, 11<br></li><li><strong>Processor:</strong> Pentium gold<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GTX 750<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 512 MB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7, 8, 10, 11<br></li><li><strong>Processor:</strong> Core i3-530<br></li><li><strong>Memory:</strong> 5 GB RAM<br></li><li><strong>Graphics:</strong> GTX 750 TI<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 512 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+            "Escape"
+        ],
+        "publishers": [
+            "Escape "
+        ],
+        "price_overview": {
+            "currency": "EUR",
+            "initial": 239,
+            "final": 239,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "2,39€"
+        },
+        "packages": [
+            658621
+        ],
+        "package_groups": [
+            {
+                "name": "default",
+                "title": "Buy War In Other Space",
+                "description": "",
+                "selection_text": "Select a purchase option",
+                "save_text": "",
+                "display_type": 0,
+                "is_recurring_subscription": "false",
+                "subs": [
+                    {
+                        "packageid": 658621,
+                        "percent_savings_text": " ",
+                        "percent_savings": 0,
+                        "option_text": "War in other Space - 2,39€",
+                        "option_description": "",
+                        "can_get_free_license": "0",
+                        "is_free_license": false,
+                        "price_in_cents_with_discount": 239
+                    }
+                ]
+            }
+        ],
+        "platforms": {
+            "windows": true,
+            "mac": false,
+            "linux": false
+        },
+        "categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            }
+        ],
+        "genres": [
+            {
+                "id": "1",
+                "description": "Action"
+            },
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "4",
+                "description": "Casual"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            },
+            {
+                "id": "3",
+                "description": "RPG"
+            }
+        ],
+        "screenshots": [
+            {
+                "id": 0,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_2b2ad5f26a8586ba2ab362b8eb7e7e41a1ab8d7f.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_2b2ad5f26a8586ba2ab362b8eb7e7e41a1ab8d7f.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 1,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_315ce0e1561a7abbdcf48f3a71f63cc0eebaac1d.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_315ce0e1561a7abbdcf48f3a71f63cc0eebaac1d.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 2,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_a57f6adb1cfcb276e25e7b56ecb2b9267b5f6ae4.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_a57f6adb1cfcb276e25e7b56ecb2b9267b5f6ae4.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 3,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_9d699ed5069a64af21ef9a8ac1ad9e10c4f4d236.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_9d699ed5069a64af21ef9a8ac1ad9e10c4f4d236.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 4,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_be72f498cac2396928f9211f287a29aff2f68f78.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_be72f498cac2396928f9211f287a29aff2f68f78.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 5,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_b2661d1b42337eea8fcc8d1a2e9b3766eb723a68.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_b2661d1b42337eea8fcc8d1a2e9b3766eb723a68.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 6,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_c594029e71734af0ceb1b1b0d333b61c74c23280.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_c594029e71734af0ceb1b1b0d333b61c74c23280.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 7,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_dfce0ae233b9a4b6461401ceee64f6f5567dcd6c.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_dfce0ae233b9a4b6461401ceee64f6f5567dcd6c.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 8,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_d159f9d70688cbf3855fccb0c6865f61ef806541.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_d159f9d70688cbf3855fccb0c6865f61ef806541.1920x1080.jpg?t=1645820558"
+            },
+            {
+                "id": 9,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_ed29b277fc3548b5d6924d014917432bf0ba1dc4.600x338.jpg?t=1645820558",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/ss_ed29b277fc3548b5d6924d014917432bf0ba1dc4.1920x1080.jpg?t=1645820558"
+            }
+        ],
+        "movies": [
+            {
+                "id": 256871083,
+                "name": "GamePlay",
+                "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256871083/movie.293x165.jpg?t=1643358841",
+                "webm": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256871083/movie480_vp9.webm?t=1643358841",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256871083/movie_max_vp9.webm?t=1643358841"
+                },
+                "mp4": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256871083/movie480.mp4?t=1643358841",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256871083/movie_max.mp4?t=1643358841"
+                },
+                "highlight": true
+            },
+            {
+                "id": 256863492,
+                "name": "War In Other Space",
+                "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256863492/movie.293x165.jpg?t=1639415064",
+                "webm": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256863492/movie480_vp9.webm?t=1639415064",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256863492/movie_max_vp9.webm?t=1639415064"
+                },
+                "mp4": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256863492/movie480.mp4?t=1639415064",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256863492/movie_max.mp4?t=1639415064"
+                },
+                "highlight": true
+            }
+        ],
+        "release_date": {
+            "coming_soon": false,
+            "date": "25 Feb, 2022"
+        },
+        "support_info": {
+            "url": "https://www.facebook.com/gagik.martirosyan.71216/",
+            "email": "escape.gamedev01@gmail.com"
+        },
+        "background": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/page_bg_generated_v6b.jpg?t=1645820558",
+        "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1830950/page.bg.jpg?t=1645820558",
+        "content_descriptors": {
+            "ids": [],
+            "notes": null
+        }
+    }
+}

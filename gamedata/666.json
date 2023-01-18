@@ -1,0 +1,123 @@
+{
+    "success": true,
+    "data": {
+        "type": "game",
+        "name": "TetsunoEbi",
+        "steam_appid": 1821540,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "※This game is recommended to be played with a gamepad.<br />\r\n※This game is created with Pixel Game Maker MV<br />\r\n<br />\r\nThis is top view shmup shooting(also known Shoot'em ups) game.<br />\r\n<br />\r\nIn the simulator world,<br />\r\ncontrol shrimp type self-propelled anti-aircraft gun and shoot fixed number of enemies for each stage.<br />\r\n<br />\r\nThis game has the following selling points<br />\r\n・Exhilaration of defeating the enemy with a machine gun<br />\r\n・They attack from all directions in 360 degrees.<br />\r\n　Strategic nature of how to confront drone attacks (on higher difficulty levels)<br />\r\n・Tense feeling of boss battles where you attack by exploiting gaps in the boss's attack.<br />\r\n<br />\r\nIt is also a work that pursues a &quot;stoic tank shooter&quot; with pixel art and chiptune.",
+        "about_the_game": "※This game is recommended to be played with a gamepad.<br />\r\n※This game is created with Pixel Game Maker MV<br />\r\n<br />\r\nThis is top view shmup shooting(also known Shoot'em ups) game.<br />\r\n<br />\r\nIn the simulator world,<br />\r\ncontrol shrimp type self-propelled anti-aircraft gun and shoot fixed number of enemies for each stage.<br />\r\n<br />\r\nThis game has the following selling points<br />\r\n・Exhilaration of defeating the enemy with a machine gun<br />\r\n・They attack from all directions in 360 degrees.<br />\r\n　Strategic nature of how to confront drone attacks (on higher difficulty levels)<br />\r\n・Tense feeling of boss battles where you attack by exploiting gaps in the boss's attack.<br />\r\n<br />\r\nIt is also a work that pursues a &quot;stoic tank shooter&quot; with pixel art and chiptune.",
+        "short_description": "This is top view shmup shooting(also known Shoot'em ups) game. This game has the following selling points ・Exhilaration of defeating the enemy with a machine gun ・Tense feeling of boss battles where you attack by exploiting gaps in the boss's attack.",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/header.jpg?t=1667879178",
+        "website": null,
+        "pc_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 8/8.1/10/11 (64bit)<br></li><li><strong>Processor:</strong> Intel Core2 Duo 2.0GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 9/OpenGL 4.1<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 8/8.1/10/11 (64bit)<br></li><li><strong>Processor:</strong> Intel Core i7-7700HQ CPU @ 2.80GHz<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 9/OpenGL 4.1<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "linux_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "developers": [
+            "鉄之海老制作班"
+        ],
+        "publishers": [
+            "鉄之海老制作班"
+        ],
+        "demos": [
+            {
+                "appid": 1856780,
+                "description": ""
+            }
+        ],
+        "package_groups": [],
+        "platforms": {
+            "windows": true,
+            "mac": false,
+            "linux": false
+        },
+        "categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 18,
+                "description": "Partial Controller Support"
+            }
+        ],
+        "genres": [
+            {
+                "id": "1",
+                "description": "Action"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            }
+        ],
+        "screenshots": [
+            {
+                "id": 0,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_22012b4c80052de2cbeb307fb8dbcd10208fb933.600x338.jpg?t=1667879178",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_22012b4c80052de2cbeb307fb8dbcd10208fb933.1920x1080.jpg?t=1667879178"
+            },
+            {
+                "id": 1,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_52c5a4dbb5db3c4505401946f484b14b81605129.600x338.jpg?t=1667879178",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_52c5a4dbb5db3c4505401946f484b14b81605129.1920x1080.jpg?t=1667879178"
+            },
+            {
+                "id": 2,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_489ec11e24442915a4b44d46f5f902139c3d6fb1.600x338.jpg?t=1667879178",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_489ec11e24442915a4b44d46f5f902139c3d6fb1.1920x1080.jpg?t=1667879178"
+            },
+            {
+                "id": 3,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_72e9572161b6307d89512927701b9f9f254b1d7d.600x338.jpg?t=1667879178",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_72e9572161b6307d89512927701b9f9f254b1d7d.1920x1080.jpg?t=1667879178"
+            },
+            {
+                "id": 4,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_583d3eb4a48e631704720ca76b6ab1e55ddde2b4.600x338.jpg?t=1667879178",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/ss_583d3eb4a48e631704720ca76b6ab1e55ddde2b4.1920x1080.jpg?t=1667879178"
+            }
+        ],
+        "movies": [
+            {
+                "id": 256866110,
+                "name": "デモプレイ",
+                "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256866110/movie.293x165.jpg?t=1667879166",
+                "webm": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256866110/movie480_vp9.webm?t=1667879166",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256866110/movie_max_vp9.webm?t=1667879166"
+                },
+                "mp4": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256866110/movie480.mp4?t=1667879166",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256866110/movie_max.mp4?t=1667879166"
+                },
+                "highlight": true
+            }
+        ],
+        "release_date": {
+            "coming_soon": true,
+            "date": "To be announced"
+        },
+        "support_info": {
+            "url": "",
+            "email": "simadorineko106@gmail.com"
+        },
+        "background": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/page_bg_generated_v6b.jpg?t=1667879178",
+        "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1821540/page_bg_generated.jpg?t=1667879178",
+        "content_descriptors": {
+            "ids": [],
+            "notes": null
+        }
+    }
+}
