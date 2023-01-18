@@ -7,7 +7,33 @@ body{
     font-family: monospace;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ------------------------------------------------------- Background all pages ------------------------------------------------------- */
+
+.background{
+    background-image: url(../images/background_ala3.png);
+    background-size: 100% 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.background1{
+    background-image: url(../images/background_ala3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.background-contact{
+    background-image: url(../images/background_ala3.png);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
 
 /* ------------------------------------------------------------- Header --------------------------------------------------------------- */
 
@@ -207,6 +233,123 @@ main{
 }
 
 /* Einde Home Pagina */
+
+/* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
+
+.footer1 {
+    background: rgb(43, 0, 30);
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+    position: relative;
+    height: 35vh;
+    top: 230vh;
+    background-image: url(../images/stars.png);
+    z-index: 5;
+}
+
+.footer2{
+    background: rgb(43, 0, 30);
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+    position: relative;
+    margin-top: 10vh;
+}
+
+.footer3{
+     z-index: 4;
+     position: fixed;
+}
+
+.footer-contact{
+    background: rgb(43, 0, 30);
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+    position: relative;
+    margin-top: 10vh;
+    bottom: 14vh;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover{
+    color: rgb(117, 0, 82);
+}
+
+.footer-bottom{
+    background-image: url(../images/stars.png);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom1{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    background: rgb(32, 0, 23);
+    position: relative;
+    bottom: 6vh;
+}
+
+.footer-bottom-contact{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    background: rgb(32, 0, 23);
+    position: relative;
+    bottom: 7vh;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
 
 /* -------------------------------------------------- Slideshow ------------------------------------------------------------------------ */
 
@@ -443,7 +586,7 @@ table{
     left: 25vw;
 }
 
-/* --------------------------------------------------------------Rating geven ---------------------------------------------------------- */
+/* -------------------------------------------------------------- Rating geven ---------------------------------------------------------- */
 
 .ratingmain{
     display: flex;
@@ -517,7 +660,7 @@ table{
     align-items: center;
     flex-direction: column;
     margin: 2vh;
-    border: #F88888 2px solid;
+    border: #ffdd00 2px solid;
     background-image: url(../images/stars.png);
 }
 
@@ -555,123 +698,8 @@ table{
     }
   }
 
-/* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
-
-.footer1 {
-    background: rgb(43, 0, 30);
-    width: 100vw;
-    padding-top: 40px;
-    color: white;
-    position: relative;
-    height: 35vh;
-    top: 230vh;
-    background-image: url(../images/stars.png);
-    z-index: 5;
-}
-
-.footer2{
-    background: rgb(43, 0, 30);
-    width: 100vw;
-    padding-top: 40px;
-    color: white;
-    position: relative;
-    margin-top: 10vh;
-}
-
-.footer3{
-     z-index: 4;
-     position: fixed;
-}
-
-.footer-contact{
-    background: rgb(43, 0, 30);
-    width: 100vw;
-    padding-top: 40px;
-    color: white;
-    position: relative;
-    margin-top: 10vh;
-    bottom: 14vh;
-}
-
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-
-.socials li{
-    margin: 0 10px;
-}
-
-.socials a{
-    text-decoration: none;
-    color: white;
-}
-
-.socials a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
-}
-
-.socials a:hover{
-    color: rgb(117, 0, 82);
-}
-
-.footer-bottom{
-    background-image: url(../images/stars.png);
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-bottom1{
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-    background: rgb(32, 0, 23);
-    position: relative;
-    bottom: 6vh;
-}
-
-.footer-bottom-contact{
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-    background: rgb(32, 0, 23);
-    position: relative;
-    bottom: 7vh;
-}
-
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
 /* ----------------------------------------------------------- About Us Page ---------------------------------------------------------- */
+
 .container{
   height: 100vh;
   width: 100vw;
@@ -684,6 +712,7 @@ table{
   align-items: center;
   margin: 0 auto;
 }
+
 .border{
   height: 369px;
   width: 290px;
@@ -707,45 +736,57 @@ table{
   align-items: center;
   position: relative;
 }
+
 .card0{
   background: url('../images/about\ us\ page\ Casper.jpg') center center no-repeat;
   background-size: 300px;
 }
+
   .card0:hover{
     background: url('../images/about\ us\ page\ Casper.jpg') center center no-repeat;
     background-size: 600px;
   }
+
   .card0:hover .border h2, .border p{
       opacity: 1;
     }
+
     .fa{
       opacity: 1;
     }
+
 .card1{
   background: url('../images/about\ us\ page\ Colin.jpg') center center no-repeat;
   background-size: 300px;
 }
+
   .card1:hover{
     background: url('../images/about\ us\ page\ Colin.jpg') top center no-repeat;
     background-size: 600px;
   }
+
   .card1:hover .border h2, .border p{
       opacity: 1;
     }
+
     .fa{
       opacity: 1;
     }
+
 .card2{
   background: url('../images/about\ us\ page\ Dani.jpg') center center no-repeat;
   background-size: 300px;
 }
+
   .card2:hover{
     background: url('../images/about\ us\ page\ Dani.jpg') center left no-repeat;
     background-size: 600px;
   }
+
     .card2:hover .border h2, .border p{
       opacity: 1;
     }
+
     .fa{
       opacity: 1;
     }
@@ -754,30 +795,38 @@ table{
     background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
     background-size: 300px;
     }
+
     .card3:hover{
         background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
         background-size: 600px;
     }
+
     .card3:hover .border h2, .border p{
         opacity: 1;
         }
+
         .fa{
         opacity: 1;
         }
+
     .card4{
         background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
         background-size: 300px;
         }
+
         .card4:hover{
           background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
           background-size: 600px;
         }
+
         .card4:hover .border h2, .border p{
              opacity: 1;
           }
+
           .fa{
             opacity: 1;
           }
+
 .border h2, .border p{
   font-family: 'Courier New', Courier, monospace;
   color: white;
@@ -785,40 +834,13 @@ table{
   opacity: 0;
   transition: opacity 1s;
 }
+
 .fa{
   opacity: 0;
   transition: opacity 1s;
 }
 
-/* ------------------------------------------------------- Background all pages ------------------------------------------------------- */
-
-.background{
-    background-image: url(../images/background_ala3.png);
-    background-size: 100% 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
-.background1{
-    background-image: url(../images/background_ala3.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
-.background-contact{
-    background-image: url(../images/background_ala3.png);
-    max-height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
-
-/* Contact pagina */
+/* ----------------------------------------------------- Contact pagina --------------------------------------------------------------- */
 
 .contact{
     display: flex;
@@ -1016,4 +1038,4 @@ table{
 #verzend:active {
     box-shadow: 0 5px rgb(0, 0, 0);
     transform: translateY(4px);
-  }
+  } 
