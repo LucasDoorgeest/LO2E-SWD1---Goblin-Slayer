@@ -969,7 +969,7 @@ table{
     background-color: #5b004c;
 }
 
-#contract-form:focus{
+#contact-form:focus{
     outline: none;
 }
 
@@ -988,6 +988,10 @@ table{
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     border: #900067 solid 2px;
     background-color: #5b004c;
+}
+
+#contact-bericht:focus{
+    outline: none;
 }
 
 #verzend{
