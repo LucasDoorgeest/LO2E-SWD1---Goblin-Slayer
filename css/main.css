@@ -413,7 +413,7 @@ table{
     flex-direction: column;
     border: black 2px solid;
     border-radius: 1rem;
-    height: 60vh;
+    height: auto;
     align-items: center;
     width: 30vw;
 }
@@ -427,6 +427,7 @@ table{
     width: 30vw;
     border-radius: 1rem;
     border: black 2px solid;
+    object-fit: cover;
 }
 
 .informatie{
