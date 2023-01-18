@@ -199,6 +199,7 @@ header nav ul #nav1Active a{
     width: 110vw;
     height: 60%;
     top: 45vh;
+    z-index: 2;
 } 
 
 main{
@@ -213,6 +214,12 @@ main{
     width: 75vw;
     position: relative;
     margin: auto;
+    transform: translateY(200%);
+    z-index: 1;
+}
+
+.dotsslideshow{
+    transform: translateY(4250%);
 }
 
 .mySlides {
@@ -296,33 +303,80 @@ main{
 
 /* -------------------------------------------------------- Rating Tabel ---------------------------------------------------- */
 
-    .ratingtable > table, th, td{
-        border: 2px solid #2D012F;
-    }
+.ratingtable > table{
+    border: 2px solid #ffdd00;
+}
 
-    th{
-        font-size: 30px;
-    }
+.headerrating{
+    font-size: 3rem;
+    color: #ffdd00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+}
 
-    th, td{
-        padding: 2vh;
-        border-radius: 5px;
-        height: 10vh;
-        width: 30vw;
-    }
+.linkrating{
+    text-decoration: none;
+    color: #ffdd00;
+}
 
-    table{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 2vh;
-        width: 90vw;
-        height: 153vh;
-        margin-left: 5vw;
-        background-color:#717171;
-    }
+th{
+    font-size: 30px;
+}
+
+th, td{
+    padding: 2vh;
+    border-radius: 5px;
+    height: 10vh;
+    width: 30vw;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    width: 90vw;
+    height: 153vh;
+    margin-left: 5vw;
+    background-image: url(../images/stars.png);
+    border-radius: 30px;
+}
 
 /* Einde Rating Tabel */
+
+/* ----------------------------------------------------------- Pagina Selector -------------------------------------------------------- */
+
+.paginaselector{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 5vh;
+    align-items: center;
+}
+
+.navrating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #ffdd00;
+    text-decoration: none;
+    height: 4vh;
+    width: 4vh;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.containerrating{
+    width: 20vw;
+    transform: translateX(350%);
+    border: #ffdd00 2px solid;
+    background-color: #ffdd00;
+    margin-top: 3vh;
+    border-radius: 30px;
+}
 
 /* ----------------------------------------------------------- Scrollbar -------------------------------------------------------------- */
 
@@ -343,7 +397,7 @@ main{
 
 /* Einde Scrollbar */
 
-/* -------------------------------------------------------------- Games ---------------------------------------------------------------- */
+/* -------------------------------------------------------------- Game Pagina ---------------------------------------------------------------- */
 
 .descriptionall{
     display: flex;
@@ -449,6 +503,39 @@ main{
 
 /* Einde rating geven */
 
+/* -------------------------------------------------------------- Games ----------------------------------------------------------------- */
+
+.containergames{
+    width: 90vw;
+    padding-left: 5vw;
+}
+
+.gamescard{
+    width: 15vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vh;
+    border: #F88888 2px solid;
+    background-image: url(../images/stars.png);
+}
+
+.vijfcards{
+    display: flex;
+    justify-content: center;
+}
+
+.gamescard > a{
+    text-decoration: none;
+}
+
+.titelgames{
+    font-size: 1.5rem;
+    color: #ffdd00 ;
+}
+
+
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
 
 .footer1 {
@@ -458,7 +545,7 @@ main{
     color: white;
     position: relative;
     height: 35vh;
-    top: 280vh;
+    top: 230vh;
     background-image: url(../images/stars.png);
     z-index: 5;
 }
@@ -475,6 +562,16 @@ main{
 .footer3{
      z-index: 4;
      position: fixed;
+}
+
+.footer-contact{
+    background: rgb(43, 0, 30);
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+    position: relative;
+    margin-top: 10vh;
+    bottom: 14vh;
 }
 
 .footer-content{
@@ -541,10 +638,137 @@ main{
     bottom: 6vh;
 }
 
+.footer-bottom-contact{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    background: rgb(32, 0, 23);
+    position: relative;
+    bottom: 7vh;
+}
+
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+}
+/* ----------------------------------------------------------- About Us Page ---------------------------------------------------------- */
+.container{
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.border{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.card{
+  height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0{
+  background: url('../images/about\ us\ page\ Casper.jpg') center center no-repeat;
+  background-size: 300px;
+}
+  .card0:hover{
+    background: url('../images/about\ us\ page\ Casper.jpg') center center no-repeat;
+    background-size: 600px;
+  }
+  .card0:hover .border h2, .border p{
+      opacity: 1;
+    }
+    .fa{
+      opacity: 1;
+    }
+.card1{
+  background: url('../images/about\ us\ page\ Colin.jpg') center center no-repeat;
+  background-size: 300px;
+}
+  .card1:hover{
+    background: url('../images/about\ us\ page\ Colin.jpg') top center no-repeat;
+    background-size: 600px;
+  }
+  .card1:hover .border h2, .border p{
+      opacity: 1;
+    }
+    .fa{
+      opacity: 1;
+    }
+.card2{
+  background: url('../images/about\ us\ page\ Dani.jpg') center center no-repeat;
+  background-size: 300px;
+}
+  .card2:hover{
+    background: url('../images/about\ us\ page\ Dani.jpg') center left no-repeat;
+    background-size: 600px;
+  }
+    .card2:hover .border h2, .border p{
+      opacity: 1;
+    }
+    .fa{
+      opacity: 1;
+    }
+
+    .card3{
+    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+    background-size: 300px;
+    }
+    .card3:hover{
+        background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
+        background-size: 600px;
+    }
+    .card3:hover .border h2, .border p{
+        opacity: 1;
+        }
+        .fa{
+        opacity: 1;
+        }
+    .card4{
+        background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
+        background-size: 300px;
+        }
+        .card4:hover{
+          background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
+          background-size: 600px;
+        }
+        .card4:hover .border h2, .border p{
+             opacity: 1;
+          }
+          .fa{
+            opacity: 1;
+          }
+.border h2, .border p{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.fa{
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 /* ------------------------------------------------------- Background all pages ------------------------------------------------------- */
@@ -566,6 +790,15 @@ main{
     overflow-x: hidden;
 }
 
+.background-contact{
+    background-image: url(../images/background_ala3.png);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
 /* Contact pagina */
 
 .contact{
@@ -580,6 +813,7 @@ main{
     height: 15vw;
     background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
     z-index: 4;
+    border-radius: 1vw;
 }
 
 #map{
@@ -598,6 +832,7 @@ main{
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     
 }
 
@@ -605,6 +840,7 @@ main{
     font-size: 1.4rem;
     text-align: center;
     color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #contact-box2{
@@ -612,6 +848,7 @@ main{
     padding: 1vw;
     text-align: center;
     color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .text-box{
@@ -620,17 +857,15 @@ main{
 }
 
 #text-box{
-    display: grid;
-    grid-template-columns: repeat( 2, 32vw);
-    grid-template-rows: repeat( 5, 7vw);
-    grid-template-columns: (2, 32vw);
-    width: 65vw;
-    height: 30vw;
+    width: 60vw;
+    height: 27vw;
     background-color: #5b004c;
     z-index: 3;
     position: relative;
     text-align: center;
     bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
 }
 
 #contact-text{
@@ -638,13 +873,124 @@ main{
     position: relative;
     top: 10vh;
     padding: 1vw;
-    grid-column: 1/2;
-    grid-row: 1;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#voornaam{
+    position: relative;
+    top: 6vw;
+    right: 1vw;
+    font-size: 1.3rem;
+    width: 15vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#voornaam:focus{
+    outline: none;
+}
+
+#achternaam{
+    position: relative;
+    top: 10vw;
+    right: 16.5vw;
+    font-size: 1.3rem;
+    width: 15vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#achternaam:focus{
+    outline: none;
+}
+
+#contact-mail{
+    position: relative;
+    top: 12vh;
+    right: 12vw;
+    font-size: 1.3rem;
+    width: 20vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#contact-mail:focus{
+    outline: none;
 }
 
 #contact-form{
-    display: flex;
     position: relative;
-    top: 10vh;
-    
-}   
+    text-align: left;
+    left: 3.5vw;
+    top: 11.5vw;
+    font-size: 1.3rem;
+    width: 15vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#contract-form:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(200, 200, 200);
+}
+
+#contact-bericht{
+    position: relative;
+    top: 2.6vh;
+    left: 8.5vw;
+    font-size: 1.3rem;
+    width: 20vw;
+    height: 20vh;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border: #900067 solid 2px;
+    background-color: #5b004c;
+}
+
+#verzend{
+    position: relative;
+    left: 12vw;
+    bottom: 4vh;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: -moz-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: -webkit-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: linear-gradient(to top, #ffdd00 0%, #ff0084 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(41, 41, 41);
+}
+
+#verzend:active {
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+  }
