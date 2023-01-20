@@ -37,6 +37,21 @@ body{
 
 /* ------------------------------------------------------------- Header --------------------------------------------------------------- */
 
+.hamburger{
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 30px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    z-index: 11;
+}
+
 #logo{
     width: 7.5vw;
 }
@@ -446,7 +461,7 @@ main{
 
 /* -------------------------------------------------------- Rating Tabel ---------------------------------------------------- */
 
-.ratingtable > table{
+.artiratingtable > table{
     border: 2px solid #ffdd00;
 }
 
@@ -465,12 +480,17 @@ main{
 }
 
 th{
-    font-size: 30px;
+    font-size: 3vw;
+    padding-top: 2vh;
+}
+
+td{
+    font-size: 2.5vw;
+    text-align: center;
 }
 
 th, td{
     padding: 2vh;
-    border-radius: 5px;
     height: 10vh;
     width: 30vw;
 }
@@ -481,7 +501,7 @@ table{
     justify-content: center;
     padding: 2vh;
     width: 90vw;
-    height: 153vh;
+    height: auto;
     margin-left: 5vw;
     background-image: url(../images/stars.png);
     border-radius: 30px;
@@ -499,6 +519,12 @@ table{
     align-items: center;
 }
 
+.selectorpositie{
+    display: flex;
+    justify-content: end;
+    padding-right: 5vh;
+}
+
 .navrating{
     display: flex;
     align-items: center;
@@ -509,16 +535,15 @@ table{
     height: 4vh;
     width: 4vh;
     background-color: orange;
-    border-radius: 50%;
+    border-radius: 30px;
 }
 
-.containerrating{
+.containerpaginaselect{
     width: 20vw;
-    transform: translateX(350%);
     border: #ffdd00 2px solid;
     background-color: #ffdd00;
     margin-top: 3vh;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 /* ----------------------------------------------------------- Scrollbar -------------------------------------------------------------- */
@@ -1041,3 +1066,62 @@ table{
     box-shadow: 0 5px rgb(0, 0, 0);
     transform: translateY(4px);
   } 
+
+/* ---------------------------------------------- Responsive Query's -------------------------------------------------------- */
+
+  @media only screen and (max-width: 768px) {
+
+/* -------------------------------------------------- Burger Menu -------------------------------------------------------- */
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -120%;
+        gap: 0;
+        flex-direction: column;
+        width: 60%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    
+/* -------------------------------------------------- Rating Pagina -------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- Games Pagina -------------------------------------------------------- */
+
+  }
