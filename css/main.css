@@ -89,6 +89,7 @@ header{
     top: 0;
     padding-bottom: 3vh;
     z-index: 10;
+
 }
 
 #nav1Active, #nav2Active, #nav3Active, #nav4Active, #nav5Active, #nav6Active, #nav7Active{
@@ -125,6 +126,17 @@ main{
     box-sizing:border-box;
 }
 
+#home-text{
+    font-size: 2rem;
+    color:#ffdd00;
+    text-shadow: 2px 2px 2px #ff3eb2;
+    text-align: center;
+    position: relative;
+    top: 110vh;
+    left: 40vw;
+    width: 50vw;
+}
+
 /* Einde Home Pagina */
 
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
@@ -136,7 +148,7 @@ main{
     color: white;
     position: relative;
     height: 35vh;
-    top: 230vh;
+    top: 160vh;
     background-image: url(../images/stars.png);
     z-index: 5;
 }
@@ -729,6 +741,36 @@ table{
         .fa{
         opacity: 1;
         }
+<<<<<<< HEAD
+        .card4{
+            background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
+            background-size: 300px;
+            }
+            .card4:hover{
+              background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
+              background-size: 600px;
+            }
+            .card4:hover .border h2, .border p{
+                 opacity: 1;
+              }
+              .fa{
+                opacity: 1;
+              }
+              .card5{
+                background: url('../images/game.jpeg') bottom center no-repeat;
+                background-size: 600px;
+                }
+                .card5:hover{
+                  background: url('../images/game.jpeg') bottom center no-repeat;
+                  background-size: 800px;
+                }
+                .card5:hover .border h2, .border p{
+                     opacity: 1;
+                  }
+                  .fa{
+                    opacity: 1;
+                  }
+=======
 
     .card4{
         background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
@@ -748,6 +790,7 @@ table{
             opacity: 1;
           }
 
+>>>>>>> 00e8dce6540e77fdaaa5e83027e734cba7135807
 .border h2, .border p{
   font-family: 'Courier New', Courier, monospace;
   color: white;
@@ -794,7 +837,6 @@ table{
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     
 }
 
