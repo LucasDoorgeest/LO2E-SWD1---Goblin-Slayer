@@ -7,9 +7,50 @@ body{
     font-family: monospace;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ------------------------------------------------------- Background all pages ------------------------------------------------------- */
+
+.background{
+    background-image: url(../images/background_ala3.png);
+    background-size: 100% 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.background1{
+    background-image: url(../images/background_ala3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.background-contact{
+    background-image: url(../images/background_ala3.png);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
 
 /* ------------------------------------------------------------- Header --------------------------------------------------------------- */
+
+.hamburger{
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 30px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    z-index: 11;
+}
 
 #logo{
     width: 7.5vw;
@@ -208,334 +249,6 @@ main{
 
 /* Einde Home Pagina */
 
-/* -------------------------------------------------- Slideshow ------------------------------------------------------------------------ */
-
-.slideshow-container {
-    width: 75vw;
-    position: relative;
-    margin: auto;
-    transform: translateY(200%);
-    z-index: 1;
-}
-
-.dotsslideshow{
-    transform: translateY(4250%);
-}
-
-.mySlides {
-    display: none;
-}
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 20px;
-    padding: 12px 20px;
-    position: absolute;
-    top: 0;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: orange;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-    background-color: yellow;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-.slideshowimg{
-    width: 75vw;
-    height: 50vh;
-    border-radius: 20px;
-}
-
-/* Einde Main Home*/
-
-/* -------------------------------------------------------- Rating Tabel ---------------------------------------------------- */
-
-.ratingtable > table{
-    border: 2px solid #ffdd00;
-}
-
-.headerrating{
-    font-size: 3rem;
-    color: #ffdd00;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2vh;
-}
-
-.linkrating{
-    text-decoration: none;
-    color: #ffdd00;
-}
-
-th{
-    font-size: 30px;
-}
-
-th, td{
-    padding: 2vh;
-    border-radius: 5px;
-    height: 10vh;
-    width: 30vw;
-}
-
-table{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2vh;
-    width: 90vw;
-    height: 153vh;
-    margin-left: 5vw;
-    background-image: url(../images/stars.png);
-    border-radius: 30px;
-}
-
-/* Einde Rating Tabel */
-
-/* ----------------------------------------------------------- Pagina Selector -------------------------------------------------------- */
-
-.paginaselector{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 5vh;
-    align-items: center;
-}
-
-.navrating{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    color: #ffdd00;
-    text-decoration: none;
-    height: 4vh;
-    width: 4vh;
-    background-color: orange;
-    border-radius: 50%;
-}
-
-.containerrating{
-    width: 20vw;
-    transform: translateX(350%);
-    border: #ffdd00 2px solid;
-    background-color: #ffdd00;
-    margin-top: 3vh;
-    border-radius: 30px;
-}
-
-/* ----------------------------------------------------------- Scrollbar -------------------------------------------------------------- */
-
-::-webkit-scrollbar {
-    background-color: #2D012F;
-    width: 20px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #680B53; 
-    border-radius: 10px;
-  }
-   
-  ::-webkit-scrollbar-thumb {
-    background: #680B53;
-    border-radius: 10px;
-  }
-
-/* Einde Scrollbar */
-
-/* -------------------------------------------------------------- Game Pagina ---------------------------------------------------------------- */
-
-.descriptionall{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5vh;
-    color: white;
-    margin-top: 5vh;
-}
-
-.descriptioninfo{
-    display: flex;
-    flex-direction: column;
-    border: black 2px solid;
-    border-radius: 1rem;
-    height: 60vh;
-    align-items: center;
-    width: 30vw;
-}
-
-.imgdemo{
-    border-radius: 1rem;
-    width: 60vw;
-}
-
-.imgdescription{
-    width: 30vw;
-    border-radius: 1rem;
-    border: black 2px solid;
-}
-
-.informatie{
-    font-size: 2rem;
-}
-
-.alldemo{
-    position: relative;
-}
-
-.textinimage{
-    position: absolute;
-    top: 60vh;
-    left: 25vw;
-}
-
-/* --------------------------------------------------------------Rating geven ---------------------------------------------------------- */
-
-.ratingmain{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.ratingh1{
-    font-size: 3rem;
-    color: white;
-}
-
-.ratingall{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: black 2px solid;
-    border-radius: 2rem;
-    width: 50vw;
-    height: 30vh;
-    background-color: #f2f2f2;
-    margin: 5vh;
-}
-
-.ratingleeg{
-    background-color: #f2f2f2;
-}
-
-.ratinggoed{
-    background-color: #8CBEFF;
-}
-
-.ratingslecht{
-    background-color: #F88888;
-}
-
-#geefrating{
-    border-radius: 1rem;
-    padding-left: 5vw;
-    height: 10vw;
-    width: 25vw;
-}
-
-.ratinggeven{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: gray 2px solid;
-    border-radius: 1rem;
-    height: 10vh;
-    width: 10vw;
-    padding: 0 2vh 0 2vh;
-    background-color: white;
-}
-
-/* Einde rating geven */
-
-/* -------------------------------------------------------------- Games ----------------------------------------------------------------- */
-
-.containergames{
-    width: 90vw;
-    padding-left: 5vw;
-}
-
-.gamescard{
-    width: 15vw;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 2vh;
-    border: #F88888 2px solid;
-    background-image: url(../images/stars.png);
-}
-
-.vijfcards{
-    display: flex;
-    justify-content: center;
-}
-
-.gamescard > a{
-    text-decoration: none;
-}
-
-.titelgames{
-    font-size: 1.5rem;
-    color: #ffdd00 ;
-}
-
-
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
 
 .footer1 {
@@ -652,7 +365,368 @@ table{
     word-spacing: 2px;
     text-transform: capitalize;
 }
+
+/* -------------------------------------------------- Slideshow ------------------------------------------------------------------------ */
+
+.slideshow-container {
+    width: 75vw;
+    position: relative;
+    margin: auto;
+    transform: translateY(200%);
+    z-index: 1;
+}
+
+.dotsslideshow{
+    transform: translateY(4250%);
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 12px 20px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: yellow;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.slideshowimg{
+    width: 75vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+/* Einde Main Home*/
+
+/* -------------------------------------------------------- Rating Tabel ---------------------------------------------------- */
+
+.artiratingtable > table{
+    border: 2px solid #ffdd00;
+}
+
+.headerrating{
+    font-size: 3rem;
+    color: #ffdd00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+}
+
+.linkrating{
+    text-decoration: none;
+    color: #ffdd00;
+}
+
+th{
+    font-size: 3vw;
+    padding-top: 2vh;
+}
+
+td{
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+th, td{
+    padding: 2vh;
+    height: 10vh;
+    width: 30vw;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    width: 90vw;
+    height: auto;
+    margin-left: 5vw;
+    background-image: url(../images/stars.png);
+    border-radius: 30px;
+}
+
+/* Einde Rating Tabel */
+
+/* ----------------------------------------------------------- Pagina Selector -------------------------------------------------------- */
+
+.paginaselector{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 5vh;
+    align-items: center;
+}
+
+.selectorpositie{
+    display: flex;
+    justify-content: end;
+    padding-right: 5vh;
+}
+
+.navrating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #ffdd00;
+    text-decoration: none;
+    height: 4vh;
+    width: 4vh;
+    background-color: orange;
+    border-radius: 30px;
+}
+
+.containerpaginaselect{
+    width: 20vw;
+    border: #ffdd00 2px solid;
+    background-color: #ffdd00;
+    margin-top: 3vh;
+    border-radius: 15px;
+}
+
+/* ----------------------------------------------------------- Scrollbar -------------------------------------------------------------- */
+
+::-webkit-scrollbar {
+    background-color: #2D012F;
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #680B53; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #680B53;
+    border-radius: 10px;
+  }
+
+/* Einde Scrollbar */
+
+/* -------------------------------------------------------------- Game Pagina ---------------------------------------------------------------- */
+
+.descriptionall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    color: white;
+    margin-top: 5vh;
+}
+
+.descriptioninfo{
+    display: flex;
+    flex-direction: column;
+    border: black 2px solid;
+    border-radius: 1rem;
+    height: auto;
+    align-items: center;
+    width: 30vw;
+}
+
+.imgdemo{
+    border-radius: 1rem;
+    width: 60vw;
+    height: 60vh;
+}
+
+.imgdescription{
+    width: 30vw;
+    border-radius: 1rem;
+    border: black 2px solid;
+    object-fit: cover;
+}
+
+.informatie{
+    font-size: 2rem;
+}
+
+.alldemo{
+    position: relative;
+}
+
+.textinimage{
+    position: absolute;
+    top: 60vh;
+    left: 25vw;
+}
+
+/* -------------------------------------------------------------- Rating geven ---------------------------------------------------------- */
+
+.ratingmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratingh1{
+    font-size: 3rem;
+    color: white;
+}
+
+.ratingall{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: black 2px solid;
+    border-radius: 2rem;
+    width: 50vw;
+    height: 30vh;
+    background-color: #f2f2f2;
+    margin: 5vh;
+}
+
+.ratingleeg{
+    background-color: #f2f2f2;
+}
+
+.ratinggoed{
+    background-color: #8CBEFF;
+}
+
+.ratingslecht{
+    background-color: #F88888;
+}
+
+#geefrating{
+    border-radius: 1rem;
+    padding-left: 5vw;
+    height: 10vw;
+    width: 25vw;
+}
+
+.ratinggeven{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: gray 2px solid;
+    border-radius: 1rem;
+    height: 10vh;
+    width: 10vw;
+    padding: 0 2vh 0 2vh;
+    background-color: white;
+}
+
+/* Einde rating geven */
+
+/* -------------------------------------------------------------- Games ----------------------------------------------------------------- */
+
+.containergames{
+    width: 90vw;
+    padding-left: 5vw;
+}
+
+.gamescard{
+    width: 15vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vh;
+    border: #ffdd00 2px solid;
+    background-image: url(../images/stars.png);
+}
+
+.gameimg{
+    width: 15vw;
+    object-fit: cover;
+}
+
+.vijfcards{
+    display: flex;
+    justify-content: center;
+}
+
+.gamescard > a{
+    text-decoration: none;
+}
+
+.titelgames{
+    font-size: 1.5em;
+    color: #ffdd00 ;
+}
+
+@media only screen and (max-width: 800px) {
+    .vijfcards {
+        flex-direction: column;
+    }
+    .gamescard{
+        width: 80vw;
+        height: 35vh;
+    }
+    .gameimg{
+        width: 80vw;
+        height: 28vh;
+        object-fit: cover;
+    }
+  }
+
 /* ----------------------------------------------------------- About Us Page ---------------------------------------------------------- */
+
 .container{
   height: 100vh;
   width: 100vw;
@@ -665,6 +739,7 @@ table{
   align-items: center;
   margin: 0 auto;
 }
+
 .border{
   height: 369px;
   width: 290px;
@@ -688,45 +763,57 @@ table{
   align-items: center;
   position: relative;
 }
+
 .card0{
   background: url('../images/about\ us\ page\ Casper.jpg') center center no-repeat;
   background-size: 300px;
 }
+
   .card0:hover{
     background: url('../images/about\ us\ page\ Casper.jpg') center center no-repeat;
     background-size: 600px;
   }
+
   .card0:hover .border h2, .border p{
       opacity: 1;
     }
+
     .fa{
       opacity: 1;
     }
+
 .card1{
   background: url('../images/about\ us\ page\ Colin.jpg') center center no-repeat;
   background-size: 300px;
 }
+
   .card1:hover{
     background: url('../images/about\ us\ page\ Colin.jpg') top center no-repeat;
     background-size: 600px;
   }
+
   .card1:hover .border h2, .border p{
       opacity: 1;
     }
+
     .fa{
       opacity: 1;
     }
+
 .card2{
   background: url('../images/about\ us\ page\ Dani.jpg') center center no-repeat;
   background-size: 300px;
 }
+
   .card2:hover{
     background: url('../images/about\ us\ page\ Dani.jpg') center left no-repeat;
     background-size: 600px;
   }
+
     .card2:hover .border h2, .border p{
       opacity: 1;
     }
+
     .fa{
       opacity: 1;
     }
@@ -735,16 +822,20 @@ table{
     background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
     background-size: 300px;
     }
+
     .card3:hover{
         background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
         background-size: 600px;
     }
+
     .card3:hover .border h2, .border p{
         opacity: 1;
         }
+
         .fa{
         opacity: 1;
         }
+<<<<<<< HEAD
         .card4{
             background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
             background-size: 300px;
@@ -773,6 +864,27 @@ table{
                   .fa{
                     opacity: 1;
                   }
+=======
+
+    .card4{
+        background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
+        background-size: 300px;
+        }
+
+        .card4:hover{
+          background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
+          background-size: 600px;
+        }
+
+        .card4:hover .border h2, .border p{
+             opacity: 1;
+          }
+
+          .fa{
+            opacity: 1;
+          }
+
+>>>>>>> 00e8dce6540e77fdaaa5e83027e734cba7135807
 .border h2, .border p{
   font-family: 'Courier New', Courier, monospace;
   color: white;
@@ -780,40 +892,13 @@ table{
   opacity: 0;
   transition: opacity 1s;
 }
+
 .fa{
   opacity: 0;
   transition: opacity 1s;
 }
 
-/* ------------------------------------------------------- Background all pages ------------------------------------------------------- */
-
-.background{
-    background-image: url(../images/background_ala3.png);
-    background-size: 100% 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
-.background1{
-    background-image: url(../images/background_ala3.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
-.background-contact{
-    background-image: url(../images/background_ala3.png);
-    max-height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
-
-/* Contact pagina */
+/* ----------------------------------------------------- Contact pagina --------------------------------------------------------------- */
 
 .contact{
     display: flex;
@@ -964,7 +1049,7 @@ table{
     background-color: #5b004c;
 }
 
-#contract-form:focus{
+#contact-form:focus{
     outline: none;
 }
 
@@ -983,6 +1068,10 @@ table{
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     border: #900067 solid 2px;
     background-color: #5b004c;
+}
+
+#contact-bericht:focus{
+    outline: none;
 }
 
 #verzend{
@@ -1007,4 +1096,63 @@ table{
 #verzend:active {
     box-shadow: 0 5px rgb(0, 0, 0);
     transform: translateY(4px);
+  } 
+
+/* ---------------------------------------------- Responsive Query's -------------------------------------------------------- */
+
+  @media only screen and (max-width: 768px) {
+
+/* -------------------------------------------------- Burger Menu -------------------------------------------------------- */
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -120%;
+        gap: 0;
+        flex-direction: column;
+        width: 60%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    
+/* -------------------------------------------------- Rating Pagina -------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- Games Pagina -------------------------------------------------------- */
+
   }

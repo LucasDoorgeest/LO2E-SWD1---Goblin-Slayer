@@ -1,0 +1,90 @@
+{
+    "success": true,
+    "data": {
+        "type": "music",
+        "name": "Leenie Boog Soundtrack",
+        "steam_appid": 1830880,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "This music assembly contains all the music that is used in the game Leenie Boog",
+        "about_the_game": "This music assembly contains all the music that is used in the game Leenie Boog",
+        "short_description": "This music assembly contains all the music that is used in the game Leenie Boog",
+        "fullgame": {
+            "appid": "1572420",
+            "name": "Leenie Boog"
+        },
+        "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1830880/header.jpg?t=1638457521",
+        "website": null,
+        "pc_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>Storage:</strong> 150.0 MB MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+            "Alexander Bazhenov"
+        ],
+        "publishers": [
+            "Alexander Bazhenov"
+        ],
+        "price_overview": {
+            "currency": "EUR",
+            "initial": 399,
+            "final": 399,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "3,99€"
+        },
+        "packages": [
+            658591
+        ],
+        "package_groups": [
+            {
+                "name": "default",
+                "title": "Buy Leenie Boog Soundtrack",
+                "description": "",
+                "selection_text": "Select a purchase option",
+                "save_text": "",
+                "display_type": 0,
+                "is_recurring_subscription": "false",
+                "subs": [
+                    {
+                        "packageid": 658591,
+                        "percent_savings_text": " ",
+                        "percent_savings": 0,
+                        "option_text": "Leenie Boog Soundtrack - 3,99€",
+                        "option_description": "",
+                        "can_get_free_license": "0",
+                        "is_free_license": false,
+                        "price_in_cents_with_discount": 399
+                    }
+                ]
+            }
+        ],
+        "platforms": {
+            "windows": true,
+            "mac": true,
+            "linux": true
+        },
+        "screenshots": [
+            {
+                "id": 0,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830880/ss_18ceef1af07b97c5d490a69009183e01ef022305.600x338.jpg?t=1638457521",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830880/ss_18ceef1af07b97c5d490a69009183e01ef022305.1920x1080.jpg?t=1638457521"
+            }
+        ],
+        "release_date": {
+            "coming_soon": false,
+            "date": "2 Dec, 2021"
+        },
+        "support_info": {
+            "url": "",
+            "email": "sanyabazhen.game@gmail.com"
+        },
+        "background": "https://cdn.akamai.steamstatic.com/steam/apps/1830880/page_bg_generated_v6b.jpg?t=1638457521",
+        "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1830880/page_bg_generated.jpg?t=1638457521",
+        "content_descriptors": {
+            "ids": [],
+            "notes": null
+        }
+    }
+}

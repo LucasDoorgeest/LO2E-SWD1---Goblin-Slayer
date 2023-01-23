@@ -1,5 +1,4 @@
-// let slideIndex = 1;
-// showSlides(slideIndex);
+/* --------------------------- Slide Show -------------------------------- */
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -28,3 +27,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+/* --------------------------- Burger Menu -------------------------------- */
+
+const hamburger =  document.querySelector(".hamburger");
+const navMenu =  document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+})

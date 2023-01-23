@@ -1,0 +1,110 @@
+{
+    "success": true,
+    "data": {
+        "type": "music",
+        "name": "Hyper-5 Soundtrack",
+        "steam_appid": 1830010,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<strong>Hyper-5 Soundtrack</strong><br><br>Twelve extended mixes of the key musical pieces accompanying Hyper-5, a cinematic shmup inspired by classics from the “golden era” of the 90’s.<br>Total playing time 41:08.",
+        "about_the_game": "<strong>Hyper-5 Soundtrack</strong><br><br>Twelve extended mixes of the key musical pieces accompanying Hyper-5, a cinematic shmup inspired by classics from the “golden era” of the 90’s.<br>Total playing time 41:08.",
+        "short_description": "Hyper-5 Soundtrack Twelve extended mixes of the key musical pieces accompanying Hyper-5, a cinematic shmup inspired by classics from the “golden era” of the 90’s.",
+        "fullgame": {
+            "appid": "1662090",
+            "name": "Hyper-5"
+        },
+        "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/header.jpg?t=1658769887",
+        "website": null,
+        "pc_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>Storage:</strong> 95 MB available space<br></li><li><strong>Storage (high-quality audio):</strong> Additional 269 MB available space<br></li><li><strong>Additional Notes:</strong> LQ is 320Kbps .MP3, HQ is 16-bit .FLAC</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "legal_notice": "(c) 2021 James Paterson",
+        "developers": [
+            "Hyper Productions"
+        ],
+        "publishers": [
+            "Hyper Productions"
+        ],
+        "package_groups": [],
+        "platforms": {
+            "windows": true,
+            "mac": true,
+            "linux": true
+        },
+        "categories": [
+            {
+                "id": 50,
+                "description": "Additional High-Quality Audio"
+            }
+        ],
+        "screenshots": [
+            {
+                "id": 0,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_60820886f8826ee04716bfc196c7cbe22e8913ad.600x338.jpg?t=1658769887",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_60820886f8826ee04716bfc196c7cbe22e8913ad.1920x1080.jpg?t=1658769887"
+            },
+            {
+                "id": 1,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_2eba2af236cf2ab399feee95af537d7c71727b2d.600x338.jpg?t=1658769887",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_2eba2af236cf2ab399feee95af537d7c71727b2d.1920x1080.jpg?t=1658769887"
+            },
+            {
+                "id": 2,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_45335668402fe2a7adfd835657654a9cd324adae.600x338.jpg?t=1658769887",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_45335668402fe2a7adfd835657654a9cd324adae.1920x1080.jpg?t=1658769887"
+            },
+            {
+                "id": 3,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_ab0e262b0a5dcffab517eb4661f47de9e275484f.600x338.jpg?t=1658769887",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_ab0e262b0a5dcffab517eb4661f47de9e275484f.1920x1080.jpg?t=1658769887"
+            },
+            {
+                "id": 4,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_a773fd164663e2e3ff583052449251518380a317.600x338.jpg?t=1658769887",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_a773fd164663e2e3ff583052449251518380a317.1920x1080.jpg?t=1658769887"
+            },
+            {
+                "id": 5,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_0c4407fdf6c48b5644d395feb8aed9d4227fa37e.600x338.jpg?t=1658769887",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_0c4407fdf6c48b5644d395feb8aed9d4227fa37e.1920x1080.jpg?t=1658769887"
+            },
+            {
+                "id": 6,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_76caec42c20f7d43f4316ca1bf758946cd775441.600x338.jpg?t=1658769887",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/ss_76caec42c20f7d43f4316ca1bf758946cd775441.1920x1080.jpg?t=1658769887"
+            }
+        ],
+        "movies": [
+            {
+                "id": 256897742,
+                "name": "Trailer",
+                "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256897742/movie.293x165.jpg?t=1658769533",
+                "webm": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256897742/movie480_vp9.webm?t=1658769533",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256897742/movie_max_vp9.webm?t=1658769533"
+                },
+                "mp4": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256897742/movie480.mp4?t=1658769533",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256897742/movie_max.mp4?t=1658769533"
+                },
+                "highlight": true
+            }
+        ],
+        "release_date": {
+            "coming_soon": false,
+            "date": "28 Jan, 2022"
+        },
+        "support_info": {
+            "url": "",
+            "email": "support@hyper-5.com"
+        },
+        "background": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/page_bg_generated_v6b.jpg?t=1658769887",
+        "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1830010/page_bg_generated.jpg?t=1658769887",
+        "content_descriptors": {
+            "ids": [],
+            "notes": null
+        }
+    }
+}

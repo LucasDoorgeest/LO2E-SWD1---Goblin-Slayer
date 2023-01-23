@@ -1,0 +1,129 @@
+{
+    "success": true,
+    "data": {
+        "type": "game",
+        "name": "白花 the white flower",
+        "steam_appid": 1812760,
+        "required_age": 0,
+        "is_free": true,
+        "detailed_description": "这款游戏是一款横版剧情向解谜游戏。您将跟随主人公的视角探索整个世界。<br />\r\n游戏的主要玩法：左右移动、触发人物对话、收集材料等。<br />\r\n游戏时常一个小时以内<br />\r\n<br />\r\n<br />\r\nPS：这款游戏的存在没有任何意义，而且很有可能浪费您的时间。<br />\r\n缺点诸如：剧情简陋，过渡生硬，游戏体验极差，BUG多，操作单一。<br />\r\n<br />\r\n总结：最好还是别玩。",
+        "about_the_game": "这款游戏是一款横版剧情向解谜游戏。您将跟随主人公的视角探索整个世界。<br />\r\n游戏的主要玩法：左右移动、触发人物对话、收集材料等。<br />\r\n游戏时常一个小时以内<br />\r\n<br />\r\n<br />\r\nPS：这款游戏的存在没有任何意义，而且很有可能浪费您的时间。<br />\r\n缺点诸如：剧情简陋，过渡生硬，游戏体验极差，BUG多，操作单一。<br />\r\n<br />\r\n总结：最好还是别玩。",
+        "short_description": "最好还是别玩。",
+        "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/header.jpg?t=1640241241",
+        "website": null,
+        "pc_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> all<br></li><li><strong>Processor:</strong> all<br></li><li><strong>Memory:</strong> 700 MB RAM<br></li><li><strong>Graphics:</strong> all<br></li><li><strong>Storage:</strong> 700 MB available space<br></li><li><strong>Sound Card:</strong> all</li></ul>"
+        },
+        "mac_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> all<br></li><li><strong>Processor:</strong> all<br></li><li><strong>Memory:</strong> 700 MB RAM<br></li><li><strong>Graphics:</strong> all<br></li><li><strong>Storage:</strong> 700 MB available space<br></li><li><strong>Sound Card:</strong> all</li></ul>"
+        },
+        "linux_requirements": [],
+        "legal_notice": "你能喜欢就好。",
+        "developers": [
+            "xp",
+            "heart-shaped 19"
+        ],
+        "publishers": [
+            "heart-shaped 19"
+        ],
+        "package_groups": [],
+        "platforms": {
+            "windows": true,
+            "mac": false,
+            "linux": false
+        },
+        "categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            }
+        ],
+        "genres": [
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "4",
+                "description": "Casual"
+            },
+            {
+                "id": "37",
+                "description": "Free to Play"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            },
+            {
+                "id": "3",
+                "description": "RPG"
+            }
+        ],
+        "screenshots": [
+            {
+                "id": 0,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_3bec4ed115be9ac6068cbaebfb963d88470aeef8.600x338.jpg?t=1640241241",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_3bec4ed115be9ac6068cbaebfb963d88470aeef8.1920x1080.jpg?t=1640241241"
+            },
+            {
+                "id": 1,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_d729f920c9c10c220621186f9fc342383ee379f4.600x338.jpg?t=1640241241",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_d729f920c9c10c220621186f9fc342383ee379f4.1920x1080.jpg?t=1640241241"
+            },
+            {
+                "id": 2,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_79a78ab34a016acd9acb77d875f2ba1cee026857.600x338.jpg?t=1640241241",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_79a78ab34a016acd9acb77d875f2ba1cee026857.1920x1080.jpg?t=1640241241"
+            },
+            {
+                "id": 3,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_f346a8a985b2e54dd0ee249e030c9f154cc91ff4.600x338.jpg?t=1640241241",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_f346a8a985b2e54dd0ee249e030c9f154cc91ff4.1920x1080.jpg?t=1640241241"
+            },
+            {
+                "id": 4,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_6a80fdb4fb4f23faa4d15ee52881d0d5a360298f.600x338.jpg?t=1640241241",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_6a80fdb4fb4f23faa4d15ee52881d0d5a360298f.1920x1080.jpg?t=1640241241"
+            },
+            {
+                "id": 5,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_303959fb685fd5f762250ae90ca05e06c1ab8ac9.600x338.jpg?t=1640241241",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/ss_303959fb685fd5f762250ae90ca05e06c1ab8ac9.1920x1080.jpg?t=1640241241"
+            }
+        ],
+        "movies": [
+            {
+                "id": 256859149,
+                "name": "模拟开始",
+                "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256859149/movie.293x165.jpg?t=1639937671",
+                "webm": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256859149/movie480_vp9.webm?t=1639937671",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256859149/movie_max_vp9.webm?t=1639937671"
+                },
+                "mp4": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256859149/movie480.mp4?t=1639937671",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256859149/movie_max.mp4?t=1639937671"
+                },
+                "highlight": true
+            }
+        ],
+        "release_date": {
+            "coming_soon": false,
+            "date": "22 Dec, 2021"
+        },
+        "support_info": {
+            "url": "",
+            "email": "xp_hs19@outlook.com"
+        },
+        "background": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/page_bg_generated_v6b.jpg?t=1640241241",
+        "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1812760/page.bg.jpg?t=1640241241",
+        "content_descriptors": {
+            "ids": [
+                5
+            ],
+            "notes": "有一点点流血。\r\n有一些真实的眼球。"
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "success": true,
+    "data": {
+        "type": "music",
+        "name": "Mistake Soundtrack",
+        "steam_appid": 1828620,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "This is a Funk soundtrack pack for Mistake. Enjoy your favorite songs outside of the game!<br><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1828620/extras/Shoot_v2.gif?t=1639909529\" />",
+        "about_the_game": "This is a Funk soundtrack pack for Mistake. Enjoy your favorite songs outside of the game!<br><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/1828620/extras/Shoot_v2.gif?t=1639909529\" />",
+        "short_description": "This is a Funk soundtrack pack for Mistake. Enjoy your favorite songs outside of the game!",
+        "fullgame": {
+            "appid": "1817400",
+            "name": "Mistake"
+        },
+        "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/header.jpg?t=1639909529",
+        "website": null,
+        "pc_requirements": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>Storage:</strong> 30 MB available space<br></li><li><strong>Storage (high-quality audio):</strong> Additional 133 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+            "Five Percents"
+        ],
+        "publishers": [
+            "Five Percents"
+        ],
+        "price_overview": {
+            "currency": "EUR",
+            "initial": 79,
+            "final": 79,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "0,79€"
+        },
+        "packages": [
+            657739
+        ],
+        "package_groups": [
+            {
+                "name": "default",
+                "title": "Buy Mistake Soundtrack",
+                "description": "",
+                "selection_text": "Select a purchase option",
+                "save_text": "",
+                "display_type": 0,
+                "is_recurring_subscription": "false",
+                "subs": [
+                    {
+                        "packageid": 657739,
+                        "percent_savings_text": " ",
+                        "percent_savings": 0,
+                        "option_text": "Mistake Soundtrack - 0,79€",
+                        "option_description": "",
+                        "can_get_free_license": "0",
+                        "is_free_license": false,
+                        "price_in_cents_with_discount": 79
+                    }
+                ]
+            }
+        ],
+        "platforms": {
+            "windows": true,
+            "mac": true,
+            "linux": true
+        },
+        "categories": [
+            {
+                "id": 50,
+                "description": "Additional High-Quality Audio"
+            }
+        ],
+        "screenshots": [
+            {
+                "id": 0,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_ee7228ac313f805629d18049cfba4455bc39dd16.600x338.jpg?t=1639909529",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_ee7228ac313f805629d18049cfba4455bc39dd16.1920x1080.jpg?t=1639909529"
+            },
+            {
+                "id": 1,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_e9151d52bf42ec2f363dfe81917498e76eb3f918.600x338.jpg?t=1639909529",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_e9151d52bf42ec2f363dfe81917498e76eb3f918.1920x1080.jpg?t=1639909529"
+            },
+            {
+                "id": 2,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_4f4386438ded2bf41dbb8af9deea2262a45c7502.600x338.jpg?t=1639909529",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_4f4386438ded2bf41dbb8af9deea2262a45c7502.1920x1080.jpg?t=1639909529"
+            },
+            {
+                "id": 3,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_e413e30c7bdbe5d8610af6a3e3198da4e748667e.600x338.jpg?t=1639909529",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_e413e30c7bdbe5d8610af6a3e3198da4e748667e.1920x1080.jpg?t=1639909529"
+            },
+            {
+                "id": 4,
+                "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_db18abca91c81eb4a254ee78759567265f3b37e7.600x338.jpg?t=1639909529",
+                "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/ss_db18abca91c81eb4a254ee78759567265f3b37e7.1920x1080.jpg?t=1639909529"
+            }
+        ],
+        "movies": [
+            {
+                "id": 256861374,
+                "name": "Mistake English Trailer",
+                "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256861374/movie.293x165.jpg?t=1637787033",
+                "webm": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256861374/movie480_vp9.webm?t=1637787033",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256861374/movie_max_vp9.webm?t=1637787033"
+                },
+                "mp4": {
+                    "480": "http://cdn.akamai.steamstatic.com/steam/apps/256861374/movie480.mp4?t=1637787033",
+                    "max": "http://cdn.akamai.steamstatic.com/steam/apps/256861374/movie_max.mp4?t=1637787033"
+                },
+                "highlight": true
+            }
+        ],
+        "release_date": {
+            "coming_soon": false,
+            "date": "26 Nov, 2021"
+        },
+        "support_info": {
+            "url": "https://vk.com/FivePercentsDev",
+            "email": "lostysy@yandex.com"
+        },
+        "background": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/page_bg_generated_v6b.jpg?t=1639909529",
+        "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1828620/page_bg_generated.jpg?t=1639909529",
+        "content_descriptors": {
+            "ids": [],
+            "notes": null
+        }
+    }
+}
