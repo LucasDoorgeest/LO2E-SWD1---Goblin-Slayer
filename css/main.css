@@ -61,6 +61,7 @@ header{
     top: 0;
     padding-bottom: 3vh;
     z-index: 10;
+
 }
 
 header nav ul{
@@ -247,6 +248,17 @@ main{
     box-sizing:border-box;
 }
 
+#home-text{
+    font-size: 2rem;
+    color:#ffdd00;
+    text-shadow: 2px 2px 2px #ff3eb2;
+    text-align: center;
+    position: relative;
+    top: 110vh;
+    left: 40vw;
+    width: 50vw;
+}
+
 /* Einde Home Pagina */
 
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
@@ -258,7 +270,7 @@ main{
     color: white;
     position: relative;
     height: 35vh;
-    top: 230vh;
+    top: 160vh;
     background-image: url(../images/stars.png);
     z-index: 5;
 }
@@ -931,7 +943,6 @@ table{
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     
 }
 
