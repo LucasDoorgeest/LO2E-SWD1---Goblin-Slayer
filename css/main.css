@@ -1007,6 +1007,12 @@ table{
 
   @media only screen and (max-width: 768px) {
 
+
+    #logo{
+        height: 15vh;
+        width: 15vh;
+    }
+
 /* -------------------------------------------------- Burger Menu -------------------------------------------------------- */
 
     .hamburger{
@@ -1057,6 +1063,7 @@ table{
         flex-direction: row;
         border: none;
         justify-content: center;
+        width: 90vw;
     }
 
     .imgdemo{
@@ -1064,25 +1071,51 @@ table{
         height: 60vh;
     }
 
+    .textinimage{
+        top: 45vh;
+    }
+
     .informatie{
-        font-size: 1rem;
-        margin-left: 2vh;
+        font-size: 0.7rem;
+        margin-left: 1vh;
     }
 
     #desc{
         width: 30vw;
     }
 
-    .ratingmain{
-        flex-direction: row;
-    }
-
     .ratingall{
-        width: 30vw;
+        width: 40vw;
         height: 20vh;
-
+        margin: 1vh;
     }
 
+    .ratingall > p{
+        margin: 1vh;
+    }
+
+    .ratingall > form{
+        margin-left: 1vh;
+    }
+
+    #geefrating{
+        width: 20vw;
+        padding-left: 0;
+    }
+
+    .ratinggoedslecht{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center
+        ;
+    }
+
+    .ratingleeggoed{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
   }
 
 
