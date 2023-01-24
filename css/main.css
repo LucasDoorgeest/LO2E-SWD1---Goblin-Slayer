@@ -41,36 +41,50 @@ body{
 
 .hamburger{
     cursor: pointer;
+    display: none;
+    transform: translateX(40vw);
 }
 
 .bar{
     display: block;
     width: 25px;
-    height: 30px;
+    height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    color: white;
+    background-color: whitesmoke;
     z-index: 11;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    gap: 2rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
 }
 
 /* Burgermenu */
 
 #logo{
     width: 7.5vw;
-}
-
-.nav-menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100vw;
-}
-
-header > nav > a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 1rem;
 }
 
 .headernav{
@@ -741,56 +755,42 @@ table{
         .fa{
         opacity: 1;
         }
-<<<<<<< HEAD
         .card4{
             background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
             background-size: 300px;
             }
+
             .card4:hover{
               background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
               background-size: 600px;
             }
+
             .card4:hover .border h2, .border p{
                  opacity: 1;
               }
+
               .fa{
                 opacity: 1;
               }
+
               .card5{
                 background: url('../images/game.jpeg') bottom center no-repeat;
                 background-size: 600px;
                 }
+
                 .card5:hover{
                   background: url('../images/game.jpeg') bottom center no-repeat;
                   background-size: 800px;
                 }
+
                 .card5:hover .border h2, .border p{
                      opacity: 1;
                   }
+
                   .fa{
                     opacity: 1;
                   }
-=======
 
-    .card4{
-        background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
-        background-size: 300px;
-        }
-
-        .card4:hover{
-          background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
-          background-size: 600px;
-        }
-
-        .card4:hover .border h2, .border p{
-             opacity: 1;
-          }
-
-          .fa{
-            opacity: 1;
-          }
-
->>>>>>> 00e8dce6540e77fdaaa5e83027e734cba7135807
 .border h2, .border p{
   font-family: 'Courier New', Courier, monospace;
   color: white;
@@ -1019,6 +1019,10 @@ table{
         display: block;
     }
 
+    .hamburger.active{
+        background-image: url(../images/background_ala3.png);
+    }
+
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
     }
@@ -1033,20 +1037,27 @@ table{
 
     .nav-menu{
         position: fixed;
-        left: -120%;
+        left: -100%;
         gap: 0;
         flex-direction: column;
         width: 60%;
+        max-height: 50vh;
         text-align: center;
         transition: 0.3s;
     }
 
     .nav-item{
-        margin: 16px 0;
+        margin: 5px;
     }
 
     .nav-menu.active{
         left: 0;
+        margin-top: 20vh;
+        background-image: url(../images/background_ala3.png);
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        border: #ffdd00 2px solid;
+        border-left: none;
     }
 
     
