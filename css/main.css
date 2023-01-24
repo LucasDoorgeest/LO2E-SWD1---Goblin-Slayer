@@ -37,6 +37,8 @@ body{
 
 /* ------------------------------------------------------------- Header --------------------------------------------------------------- */
 
+/* Burgermenu */
+
 .hamburger{
     cursor: pointer;
 }
@@ -52,8 +54,34 @@ body{
     z-index: 11;
 }
 
+/* Burgermenu */
+
 #logo{
     width: 7.5vw;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.headernav{
+    display: flex;
+}
+
+header nav #nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover, #nav5:hover, #nav6:hover, #nav7:hover{
+    padding: 5px;
+    background-color: #81335B;
+    border-radius: 5px;
+    color: whitesmoke;
 }
 
 header{
@@ -61,166 +89,17 @@ header{
     top: 0;
     padding-bottom: 3vh;
     z-index: 10;
+
 }
 
-header nav ul{
-    display: grid;
-    grid-template-columns: repeat(10, 10vw);
-    grid-template-rows: repeat(1, 11vh);
-    align-items: center;
-}
-
-header nav ul li{
-    list-style: none;
-} 
-
-header nav ul #nav1 :hover, #nav2 :hover, #nav3 :hover, #nav4 :hover, #nav5 :hover, #nav6 :hover, #nav7 :hover{
-    padding: 5px;
-    background-color: #81335B;
-    border-radius: 5px;
-}
-
-header nav ul li a:hover{
-    font-size: 1.5em;
-}
-
-header nav ul #nav1 a, #nav2 a, #nav2Active a, #nav3 a, #nav3Active a, #nav4 a, #nav4Active a, #nav5 a, #nav5Active a, #nav6 a, #nav6Active a, #nav7 a, #nav7Active a{
-    color: whitesmoke;
-    font-size: 1.3em;
-}
-
-#nav1 a, #nav2 a, #nav3 a, #nav4 a, #nav5 a, #nav6 a, #nav7 a{
-    text-decoration: none;
-}
-
-header nav ul #nav1Active a{
-    color: whitesmoke;
-    font-size: 1.3em;
-}
-
-#navlogo{
-    grid-column: 1;
-    grid-row: 1;
-    place-self: center;
-}
-
-#nav1{
-    grid-column: 4;
-    grid-row: 1;
-    place-self: center;
-}
-
-#nav1Active{
-    grid-column: 4;
-    grid-row: 1;
+#nav1Active, #nav2Active, #nav3Active, #nav4Active, #nav5Active, #nav6Active, #nav7Active{
     place-self: center;
     font-style: underline;
     background-color: #81335B;
     padding: 5px;
     border-radius: 5px;
     color: whitesmoke;
-}
-
-#nav2{
-    grid-column: 5;
-    grid-row: 1;
-    place-self: center;
-}
-
-#nav2Active{
-    grid-column: 5;
-    grid-row: 1;
-    place-self: center;
-    font-style: underline;
-    background-color: #81335B;
-    padding: 5px;
-    border-radius: 5px;
-    color: whitesmoke;
-}
-
-#nav3{
-    grid-column: 6;
-    grid-row: 1;
-    place-self: center;
-}
-
-#nav3Active{
-    grid-column: 6;
-    grid-row: 1;
-    place-self: center;
-    font-style: underline;
-    background-color: #81335B;
-    padding: 5px;
-    border-radius: 5px;
-    color: whitesmoke;
-}
-
-#nav4{
-    grid-column: 7;
-    grid-row: 1;
-    place-self: center;
-}
-
-#nav4Active{
-    grid-column: 7;
-    grid-row: 1;
-    place-self: center;
-    font-style: underline;
-    background-color: #81335B;
-    padding: 5px;
-    border-radius: 5px;
-    color: whitesmoke;
-}
-
-#nav5{
-    grid-column: 8;
-    grid-row: 1;
-    place-self: center;
-}
-
-#nav5Active{
-    grid-column: 8;
-    grid-row: 1;
-    place-self: center;
-    font-style: underline;
-    background-color: #81335B;
-    padding: 5px;
-    border-radius: 5px;
-    color: whitesmoke;
-}
-
-#nav6{
-    grid-column: 9;
-    grid-row: 1;
-    place-self: center;
-}
-
-#nav6Active{
-    grid-column: 9;
-    grid-row: 1;
-    place-self: center;
-    font-style: underline;
-    background-color: #81335B;
-    padding: 5px;
-    border-radius: 5px;
-    color: whitesmoke;
-}
-
-#nav7{
-    grid-column: 10;
-    grid-row: 1;
-    place-self: center;
-}
-
-#nav7Active{
-    grid-column: 10;
-    grid-row: 1;
-    place-self: center;
-    font-style: underline;
-    background-color: #81335B;
-    padding: 5px;
-    border-radius: 5px;
-    color: whitesmoke;
+    font-size: 1.3rem;
 }
 
 /* Einde Header */
@@ -247,6 +126,17 @@ main{
     box-sizing:border-box;
 }
 
+#home-text{
+    font-size: 2rem;
+    color:#ffdd00;
+    text-shadow: 2px 2px 2px #ff3eb2;
+    text-align: center;
+    position: relative;
+    top: 110vh;
+    left: 40vw;
+    width: 50vw;
+}
+
 /* Einde Home Pagina */
 
 /* -------------------------------------------------------------- Footer --------------------------------------------------------------- */
@@ -258,7 +148,7 @@ main{
     color: white;
     position: relative;
     height: 35vh;
-    top: 230vh;
+    top: 160vh;
     background-image: url(../images/stars.png);
     z-index: 5;
 }
@@ -609,8 +499,9 @@ table{
 
 .textinimage{
     position: absolute;
-    top: 60vh;
-    left: 25vw;
+    top: 55vh;
+    left: 10vw;
+    font-size: 2rem;
 }
 
 /* -------------------------------------------------------------- Rating geven ---------------------------------------------------------- */
@@ -658,6 +549,17 @@ table{
     width: 25vw;
 }
 
+#ratinggegeven{
+    display: flex;
+    background-color: #f2f2f2;
+    border: black 2px solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    height: 10vw;
+    width: 25vw;
+}
+
 .ratinggeven{
     display: flex;
     align-items: center;
@@ -682,12 +584,12 @@ table{
 
 .gamescard{
     width: 15vw;
-    height: 25vh;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 2px solid #ffdd00;
     margin: 2vh;
-    border: #ffdd00 2px solid;
     background-image: url(../images/stars.png);
 }
 
@@ -706,8 +608,12 @@ table{
 }
 
 .titelgames{
+    display: flex;
     font-size: 1.5em;
-    color: #ffdd00 ;
+    color: #ffdd00;
+    margin: 1vh;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -835,6 +741,36 @@ table{
         .fa{
         opacity: 1;
         }
+<<<<<<< HEAD
+        .card4{
+            background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
+            background-size: 300px;
+            }
+            .card4:hover{
+              background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
+              background-size: 600px;
+            }
+            .card4:hover .border h2, .border p{
+                 opacity: 1;
+              }
+              .fa{
+                opacity: 1;
+              }
+              .card5{
+                background: url('../images/game.jpeg') bottom center no-repeat;
+                background-size: 600px;
+                }
+                .card5:hover{
+                  background: url('../images/game.jpeg') bottom center no-repeat;
+                  background-size: 800px;
+                }
+                .card5:hover .border h2, .border p{
+                     opacity: 1;
+                  }
+                  .fa{
+                    opacity: 1;
+                  }
+=======
 
     .card4{
         background: url('../images/about\ us\ page\ Tehan.jpg') bottom center no-repeat;
@@ -854,6 +790,7 @@ table{
             opacity: 1;
           }
 
+>>>>>>> 00e8dce6540e77fdaaa5e83027e734cba7135807
 .border h2, .border p{
   font-family: 'Courier New', Courier, monospace;
   color: white;
@@ -900,7 +837,6 @@ table{
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     
 }
 
@@ -1071,6 +1007,12 @@ table{
 
   @media only screen and (max-width: 768px) {
 
+
+    #logo{
+        height: 15vh;
+        width: 15vh;
+    }
+
 /* -------------------------------------------------- Burger Menu -------------------------------------------------------- */
 
     .hamburger{
@@ -1111,17 +1053,70 @@ table{
 /* -------------------------------------------------- Rating Pagina -------------------------------------------------------- */
 
 
+/* -------------------------------------------------- Game Pagina -------------------------------------------------------- */
 
+    .descriptionall{
+        flex-direction: column;
+    }
 
+    .descriptioninfo{
+        flex-direction: row;
+        border: none;
+        justify-content: center;
+        width: 90vw;
+    }
 
+    .imgdemo{
+        width: 90vw;
+        height: 60vh;
+    }
 
+    .textinimage{
+        top: 45vh;
+    }
 
+    .informatie{
+        font-size: 0.7rem;
+        margin-left: 1vh;
+    }
 
+    #desc{
+        width: 30vw;
+    }
 
+    .ratingall{
+        width: 40vw;
+        height: 20vh;
+        margin: 1vh;
+    }
 
+    .ratingall > p{
+        margin: 1vh;
+    }
 
+    .ratingall > form{
+        margin-left: 1vh;
+    }
 
+    #geefrating{
+        width: 20vw;
+        padding-left: 0;
+    }
 
-/* -------------------------------------------------- Games Pagina -------------------------------------------------------- */
+    .ratinggoedslecht{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center
+        ;
+    }
 
+    .ratingleeggoed{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
   }
+
+
+/* -------------------------------------------------------------------------- OUDE CODE ------------------------------------------------------------------ */

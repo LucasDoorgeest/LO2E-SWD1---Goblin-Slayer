@@ -15,18 +15,23 @@
         <link rel="stylesheet" href="css/main.css">    
     </head>
 <body class="background">
-    <header>
-        <nav>
-            <ul id="nav">
-                <li class="nav" id="navLogo"><img src="images/Logo.png" id="logo" alt=""></li>
-                <li class="nav" id="nav1"> <a href="index.html">Home</a></li>
-                <li class="nav" id="nav2"> <a href="rating.html">Rating</a></li>
-                <li class="nav" id="nav3"> <a href="games.html">Games</a></li>
-                <li class="nav" id="nav4Active"> <a href="game.html"><b>Game</b></a></li>
-                <li class="nav" id="nav5"> <a href="merch.html">Merch</a></li>
-                <li class="nav" id="nav6"> <a href="aboutUs.html">About Us</a></li>
-                <li class="nav" id="nav7"> <a href="contact.html">Contact</a></li>
-            </ul>
+    <header class="headernav">
+        <article class="nav" id="navLogo">
+            <img src="images/Logo.png" id="logo" alt="">
+        </article>
+        <nav class="nav-menu" id="nav">
+            <a id="nav1" class="nav-link" href="index.html">Home</a>
+            <a id="nav2" class="nav-link" href="rating.html"><b>Rating</b></a>
+            <a id="nav3" class="nav-link" href="games.html">Games</a>
+            <a id="nav4Active" class="nav-link" href="game.html">Game</a>
+            <a id="nav5" class="nav-link" href="merch.html">Merch</a>
+            <a id="nav6" class="nav-link" href="aboutUs.html">About Us</a>
+            <a id="nav7" class="nav-link" href="contact.html">Contact</a>
+            <article class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </article>
         </nav>
     </header>
     <main>
@@ -38,20 +43,27 @@
                 </article>
                 <article class="descriptioninfo">
                     <section id="gameimg"></section>
-                    <p id="gamenaam" class="informatie">Naam Game</p>
-                    <p id="developer" class="informatie">Developer</p>
-                    <p id="genre" class="informatie">Genre / Tags</p>
-                    <p id="release" class="informatie">Release Date</p>
-                    <p id="desc" class="informatie">Korte Description</p>
+                    <article>
+                        <p id="gamenaam" class="informatie">Naam Game</p>
+                        <p id="developer" class="informatie">Developer</p>
+                    </article>
+                    <article>
+                        <p id="genre" class="informatie">Genre / Tags</p>
+                        <p id="release" class="informatie">Release Date</p>
+                    </article>
+                    <article>
+                        <p id="desc" class="informatie">Korte Description</p>
+                    </article>
                 </article>
             </article>
-            <article class="ratingmain">
+            <section class="ratingmain">
                 <h1 class="ratingh1"> Give your own rating </h1>
-                <article class="ratingleeg ratingall">
-                    <form action="">
-                        <input type="text" name="" id="geefrating" placeholder="Geef hier de reden voor jouw rating">
-                    </form>
-                    <article>
+                <article>
+                    <article class="ratingleeggoed">
+                        <article class="ratingleeg ratingall">
+                        <form action="">
+                            <input type="text" name="" id="geefrating" placeholder="Geef hier de reden voor jouw rating">
+                        </form>
                         <form action="" class="ratinggeven">
                             <article>
                                 <input type="radio" name="ratinggeven" value="goed">
@@ -62,25 +74,36 @@
                                 <label for="">Slecht</label>
                             </article>
                         </form>
+                        </article>
+                        <article class="ratinggoed ratingall">
+                            <form class="" action="">
+                                <p id="ratinggegeven"> Wat een geweldige game! </p>
+                            </form>
+                            <p class="ratinggeven">
+                                Goed
+                            </p>
+                        </article>
+                    </article>
+                    <article class="ratinggoedslecht">
+                        <article class="ratinggoed ratingall">
+                            <form class="" action="">
+                                <p id="ratinggegeven"> Wat een geweldige game! </p>
+                            </form>
+                            <p class="ratinggeven">
+                                Goed
+                            </p>
+                        </article>
+                        <article class="ratingslecht ratingall">
+                            <form class="" action="">
+                                <p id="ratinggegeven"> Wat een geweldige game! </p>
+                            </form>
+                            <p class="ratinggeven">
+                                Slecht
+                            </p>
+                        </article>
                     </article>
                 </article>
-                <article class="ratinggoed ratingall">
-                    <form class="" action="">
-                        <input type="text" name="" id="geefrating" placeholder="Geef hier de reden voor jouw rating">
-                    </form>
-                    <p class="ratinggeven">
-                        Goed
-                    </p>
-                </article>
-                <article class="ratingslecht ratingall">
-                    <form class="" action="">
-                        <input type="text" name="" id="geefrating" placeholder="Geef hier de reden voor jouw rating">
-                    </form>
-                    <p class="ratinggeven">
-                        Slecht
-                    </p>
-                </article>
-            </article>
+            </section>
         </section>
     </main>
     <footer class="footer2">
