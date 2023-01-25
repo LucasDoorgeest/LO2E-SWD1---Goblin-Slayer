@@ -827,7 +827,7 @@ table {
 }
 
 .fa {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 1s;
 }
 
@@ -1087,6 +1087,8 @@ table {
     width: 30vw;
     object-fit: cover;
   }
+
+
 
   /* -------------------------------------------------- Game Pagina -------------------------------------------------------- */
 
