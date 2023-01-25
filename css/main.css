@@ -81,7 +81,7 @@ li {
   font-size: 1rem;
 }
 
-/* Burgermenu */
+/* Einde Burgermenu */
 
 #logo {
   width: 7.5vw;
@@ -502,7 +502,7 @@ table {
   justify-content: center;
   align-items: center;
   gap: 5vh;
-  color: white;
+  color: black;
   margin-top: 5vh;
 }
 
@@ -514,12 +514,15 @@ table {
   height: auto;
   align-items: center;
   width: 30vw;
+  background-color: #f2f2f2;
+  padding: 2vh;
 }
 
 .imgdemo {
   border-radius: 1rem;
   width: 60vw;
   height: 60vh;
+  margin: auto;
 }
 
 .imgdescription {
@@ -551,6 +554,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 5vh;
 }
 
 .ratingh1 {
@@ -562,12 +566,23 @@ table {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column-reverse;
   border: black 2px solid;
-  border-radius: 2rem;
-  width: 50vw;
+  border-radius: 5px;
+  width: 35vw;
   height: 30vh;
   background-color: #f2f2f2;
-  margin: 5vh;
+  margin-top: 5vh;
+}
+
+.ratingleeggoed{
+  display: flex;
+  gap: 50px;
+}
+
+.ratinggoedslecht{
+  display: flex;
+  gap: 50px;
 }
 
 .ratingleeg {
@@ -583,19 +598,20 @@ table {
 }
 
 #geefrating {
-  border-radius: 1rem;
-  padding-left: 5vw;
+  border-radius: 5px;
+  padding: 0 2.5vw;
   height: 10vw;
   width: 25vw;
 }
 
-#ratinggegeven {
+#ratingcomment {
   display: flex;
   background-color: #f2f2f2;
   border: black 2px solid;
   align-items: center;
   justify-content: center;
-  border-radius: 1rem;
+  border-radius: 5px;
+  padding: 0 2.5vw;
   height: 10vw;
   width: 25vw;
 }
@@ -604,13 +620,17 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  border: gray 2px solid;
-  border-radius: 1rem;
-  height: 10vh;
-  width: 10vw;
-  padding: 0 2vh 0 2vh;
-  background-color: white;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.ratinginfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 20vw;
+  margin: 0 2vh;
 }
 
 /* Einde rating geven */
@@ -1299,6 +1319,7 @@ table {
 /* ---------------------------------------------- Responsive Query's -------------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
+
   #logo {
     height: 15vh;
     width: 15vh;
@@ -1357,6 +1378,22 @@ table {
     object-fit: cover;
   }
 
+  .imgdescription{
+    display: none;
+  }
+
+  #geefrating{
+    height: 10vh;
+  }
+
+  .ratingh1{
+    padding-left: 3vh;
+  }
+
+  #ratingcomment{
+    height: 10vh;
+  }
+
   /* -------------------------------------------------- Game Pagina -------------------------------------------------------- */
 
   .descriptionall {
@@ -1367,16 +1404,18 @@ table {
     flex-direction: row;
     border: none;
     justify-content: center;
-    width: 90vw;
+    width: 80vw;
   }
 
   .imgdemo {
-    width: 90vw;
-    height: 60vh;
+    width: 80vw;
+    height: 30vh;
   }
 
   .textinimage {
-    top: 45vh;
+    left: 5vw;
+    top: 20vh;
+    color: whitesmoke;
   }
 
   .informatie {
@@ -1389,8 +1428,8 @@ table {
   }
 
   .ratingall {
-    width: 40vw;
-    height: 20vh;
+    width: 45vw;
+    height: 25vh;
     margin: 1vh;
   }
 
@@ -1402,22 +1441,8 @@ table {
     margin-left: 1vh;
   }
 
-  #geefrating {
-    width: 20vw;
-    padding-left: 0;
-  }
-
-  .ratinggoedslecht {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .ratingleeggoed {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .ratinginfo{
+    gap: 20px;
   }
 }
 
