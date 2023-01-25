@@ -787,7 +787,6 @@ table {
   opacity: 1;
 }
 
-<<<<<<< HEAD
         .fa{
         opacity: 1;
         }
@@ -821,54 +820,6 @@ table {
                   }
 .border h2, .border p{
   font-family: 'Courier New', Courier, monospace;
-=======
-.fa {
-  opacity: 1;
-}
-.card4 {
-  background: url("../images/about\ us\ page\ Tehan.jpg") bottom center
-    no-repeat;
-  background-size: 300px;
-}
-
-.card4:hover {
-  background: url("../images/about\ us\ page\ Tehan.jpg") bottom center
-    no-repeat;
-  background-size: 600px;
-}
-
-.card4:hover .border h2,
-.border p {
-  opacity: 1;
-}
-
-.fa {
-  opacity: 1;
-}
-
-.card5 {
-  background: url("../images/game.jpeg") bottom center no-repeat;
-  background-size: 600px;
-}
-
-.card5:hover {
-  background: url("../images/game.jpeg") bottom center no-repeat;
-  background-size: 800px;
-}
-
-.card5:hover .border h2,
-.border p {
-  opacity: 1;
-}
-
-.fa {
-  opacity: 1;
-}
-
-.border h2,
-.border p {
-  font-family: "Courier New", Courier, monospace;
->>>>>>> 049442227d4b939c571e0942afe862659bce4d6c
   color: white;
   margin: 20px;
   opacity: 0;
