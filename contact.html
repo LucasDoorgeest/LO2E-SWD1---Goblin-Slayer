@@ -7,7 +7,6 @@
         <meta name="description" content="ALA periode 2">
         <meta name="author" content="Lucas, Dani, Colin, Casper, Tehan">
         <meta name="keywords" content="">
-        <script src=""></script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link id="favicon" rel="shortcut icon" type="image/png" href="images/favicon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -15,61 +14,67 @@
         <link rel="stylesheet" href="css/main.css">    
     </head>
 <body class="background-contact">
-    <header>
-        <nav>
-            <ul id="nav">
-                <li class="nav" id="navLogo"><img src="images/Logo.png" id="logo" alt=""></li>
-                <li class="nav" id="nav1"> <a href="index.html">Home</a></li>
-                <li class="nav" id="nav2"> <a href="rating.html">Rating</a></li>
-                <li class="nav" id="nav3"> <a href="games.html">Games</a></li>
-                <li class="nav" id="nav4"> <a href="game.html">Game</a></li>
-                <li class="nav" id="nav5"> <a href="merch.html">Merch</a></li>
-                <li class="nav" id="nav6"> <a href="aboutUs.html">About Us</a></li>
-                <li class="nav" id="nav7Active"> <a href="contact.html"><b>Contact</b></a></li>
+    <header class="headernav">
+        <article class="nav" id="navLogo">
+            <img src="images/Logo.png" id="logo" alt="">
+        </article>
+        <nav class="navbar" id="nav">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a id="nav1" class="nav-link" href="index.html">Home</a>
+                </li>    
+                <li class="nav-item">
+                    <a id="nav2" class="nav-link" href="rating.html"><b>Rating</b></a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav3" class="nav-link" href="games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav4" class="nav-link" href="game.html">Game</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav5" class="nav-link" href="merch.html">Merch</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav6" class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav7Active" class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
+            <article class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </article>
         </nav>
     </header>
-
     <main>
 
         <article class="contact">
             <article id="contact-box">
-
-            <li id="map"><a href="#"><i class="fas fa-map-marker"></i></a></li>
-            <p id="contact-box1"><b>Ons hoofdkantoor</b></p>
-            <p id="contact-box2">Betaplein 18, 2321 KS Leiden</p>
-
+                <li id="map"><a href="#"><i class="fas fa-map-marker"></i></a></li>
+                <p id="contact-box1"><b>Ons hoofdkantoor</b></p>
+                <p id="contact-box2">Betaplein 18, 2321 KS Leiden</p>
             </article>
-
             <article id="contact-box">
-
-            <li id="map"><a href="#"><i class="fas fa-phone"></i></a></li>
-            <p id="contact-box1"><b>Telefoonnummer</b></p>
-            <p id="contact-box2">234-9876-5400</p>
-        
+                <li id="map"><a href="#"><i class="fas fa-phone"></i></a></li>
+                <p id="contact-box1"><b>Telefoonnummer</b></p>
+                <p id="contact-box2">234-9876-5400</p>
             </article>
-
             <article id="contact-box">
-
-            <li id="map"><a href="#"><i class="fas fa-fax"></i></a></li>
-            <p id="contact-box1"><b>FAX</b></p>
-            <p id="contact-box2">1-234-567-8900</p>
-            
+                <li id="map"><a href="#"><i class="fas fa-fax"></i></a></li>
+                <p id="contact-box1"><b>FAX</b></p>
+                <p id="contact-box2">1-234-567-8900</p>
             </article>
-
             <article id="contact-box">
-
-            <li id="map"><a href="#"><i class="fas fa-envelope"></i></a></li>
-            <p id="contact-box1"><b>Email</b></p>
-            <p id="contact-box2">Sunsetgaming@gg.com</p>
-                
+                <li id="map"><a href="#"><i class="fas fa-envelope"></i></a></li>
+                <p id="contact-box1"><b>Email</b></p>
+                <p id="contact-box2">Sunsetgaming@gg.com</p>
             </article>
-
         </article>
         <article id="text-box">
-
             <p id="contact-text"><b>Stuur ons een bericht!</b></p>
-
             <input type="text" placeholder="Voornaam" id="voornaam">
             <input type="text" placeholder="Achternaam" id="achternaam">
             <input type="email" placeholder="Email" id="contact-mail">
@@ -79,17 +84,13 @@
                 <input type="radio" name="color"> Probleem <br>  
                 <input type="radio" name="color"> Feedback <br>  
                 <input type="radio" name="color"> Anders <br>  
-              </form> 
+            </form> 
             <textarea placeholder="Type hier uw bericht" id="contact-bericht"></textarea>
             <button type="button" id="verzend"  onClick="window.location.reload();">Verzend</button>
 
         </article>   
     </main>
-
-
     <footer class="footer-contact">
-
-
         <article class="footer-bottom-contact">
             <p><b>Copyright &copy;2023 SunsetGaming</b></p>
         </article>
@@ -104,7 +105,7 @@
                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
             </ul>
         </article>
-
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

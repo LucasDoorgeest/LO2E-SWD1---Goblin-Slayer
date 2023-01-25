@@ -7,7 +7,6 @@
         <meta name="description" content="ALA periode 2">
         <meta name="author" content="Lucas, Dani, Colin, Casper, Tehan">
         <meta name="keywords" content="">
-        <script src=""></script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link id="favicon" rel="shortcut icon" type="image/png" href="images/favicon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -15,18 +14,40 @@
         <link rel="stylesheet" href="css/main.css">    
     </head>
 <body class="background">
-    <header>
-        <nav>
-            <ul id="nav">
-                <li class="nav" id="navLogo"><img src="images/Logo.png" id="logo" alt=""></li>
-                <li class="nav" id="nav1"> <a href="index.html">Home</a></li>
-                <li class="nav" id="nav2Active"> <a href="rating.html"><b>Rating</b></a></li>
-                <li class="nav" id="nav3"> <a href="games.html">Games</a></li>
-                <li class="nav" id="nav4"> <a href="game.html">Game</a></li>
-                <li class="nav" id="nav5"> <a href="merch.html">Merch</a></li>
-                <li class="nav" id="nav6"> <a href="aboutUs.html">About Us</a></li>
-                <li class="nav" id="nav7"> <a href="contact.html">Contact</a></li>
+    <header class="headernav">
+        <article class="nav" id="navLogo">
+            <img src="images/Logo.png" id="logo" alt="">
+        </article>
+        <nav class="navbar" id="nav">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a id="nav1" class="nav-link" href="index.html">Home</a>
+                </li>    
+                <li class="nav-item">
+                    <a id="nav2Active" class="nav-link" href="rating.html"><b>Rating</b></a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav3" class="nav-link" href="games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav4" class="nav-link" href="game.html">Game</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav5" class="nav-link" href="merch.html">Merch</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav6" class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav7" class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
+            <article class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </article>
+        </nav>
         </nav>
     </header>
     <main>
@@ -91,12 +112,14 @@
                     </tr>
                 </table>
             </article>
-            <article class="containerrating">
-                <nav class="paginaselector">
-                    <a class="navrating" id="anavgames" href="rating.html">1</a>
-                    <a class="navrating" href="#">2</a>
-                    <a class="navrating" href="ratingp3.html">3</a>
-                </nav>
+            <article class="selectorpositie">
+                <article class="containerpaginaselect">
+                    <nav class="paginaselector">
+                        <a class="navrating" href="rating.html">1</a>
+                        <a class="navrating" href="#">2</a>
+                        <a class="navrating" href="ratingp3.html">3</a>
+                    </nav>
+                </article>
             </article>
         </section>
     </main>
@@ -116,5 +139,6 @@
             </ul>
         </article>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
