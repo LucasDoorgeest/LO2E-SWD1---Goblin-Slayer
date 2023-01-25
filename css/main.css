@@ -65,6 +65,23 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  border-radius: 10vw;
+  height: 10vh;
+  align-self: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgba(238, 255, 0, 0.656), rgba(255, 0, 230, 0.667));
+}
+
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-image: linear-gradient(to right, rgb(77, 0, 88), rgb(22, 0, 73));
+  border-radius: 10vw;
+  height: 10vh;
+  align-self: center;
+  justify-content: center;
 }
 
 .nav-menu {
@@ -78,6 +95,7 @@ li {
 .nav-link {
   text-decoration: none;
   color: whitesmoke;
+  text-shadow: 1px 1px 1px #000000;
   font-size: 1rem;
 }
 
@@ -98,9 +116,9 @@ header nav #nav1:hover,
 #nav5:hover,
 #nav6:hover,
 #nav7:hover {
-  padding: 5px;
-  background-color: #81335b;
-  border-radius: 5px;
+  padding: 0.4vw;
+  background-color: #1a0049c2;
+  border-radius: 10vw;
   color: whitesmoke;
 }
 
@@ -111,7 +129,6 @@ header {
   z-index: 10;
 }
 
-#nav1Active,
 #nav2Active,
 #nav3Active,
 #nav4Active,
@@ -120,11 +137,21 @@ header {
 #nav7Active {
   place-self: center;
   font-style: underline;
-  background-color: #81335b;
-  padding: 5px;
-  border-radius: 5px;
+  background-color: #81008f;
+  padding: 0.5vw;
+  border-radius: 10vw;
   color: whitesmoke;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+}
+
+#nav1Active{
+  place-self: center;
+  font-style: underline;
+  background-color: #ad0088;
+  padding: 0.5vw;
+  border-radius: 10vw;
+  color: whitesmoke;
+  font-size: 1.2rem;
 }
 
 /* Einde Header */
@@ -158,7 +185,7 @@ main {
   text-align: center;
   position: relative;
   top: 110vh;
-  left: 40vw;
+  left: 10vw;
   width: 50vw;
 }
 
@@ -1239,6 +1266,64 @@ table {
 
   #map {
     font-size: 5rem;
+    list-style: none;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #text-box {
+    width: 60vw;
+    height: 220vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
+
+@media only screen and (max-width: 450px) {
+
+  #contact-box {
+    width: 40vw;
+    height: 40vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+    border-radius: 1vw;
+  }
+
+  .contact {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vw;
+    min-width: 40vw;
+    align-items: center;
+  }
+
+  #contact-box1 {
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #contact-box2 {
+    font-size: 0.8rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #map {
+    font-size: 4rem;
     list-style: none;
     text-align: center;
     padding: 1vw;
