@@ -1027,6 +1027,275 @@ table {
   transform: translateY(4px);
 }
 
+@media only screen and (max-width: 768px) {
+
+  #contact-box {
+    width: 50vw;
+    height: 50vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+    border-radius: 1vw;
+  }
+
+  .contact {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vw;
+    min-width: 40vw;
+    align-items: center;
+  }
+
+  #contact-box1 {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #contact-box2 {
+    font-size: 1.5rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #map {
+    font-size: 9rem;
+    list-style: none;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #text-box {
+    width: 60vw;
+    height: 150vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #voornaam {
+    position: relative;
+    top: 12vh;
+    font-size: 1.3rem;
+    height: 5vh;
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+    align-self: center;
+  }
+
+  #achternaam {
+    position: relative;
+    right: 1vw;
+    top: 16vh;
+    font-size: 1.3rem;
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+    align-self: center;
+  }
+
+  #contact-mail {
+    position: relative;
+    right: 1vw;
+    top: 20vh;
+    font-size: 1.3rem;
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+    align-self: center;
+  }
+
+  #contact-form {
+    position: relative;
+    left: 14vw;
+    top: 25vh;
+    font-size: 1.3rem;
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+  }
+
+  #contact-bericht {
+    position: relative;
+    left: 4.8vw;
+    top: 30vh;
+    font-size: 1.3rem;
+    width: 50vw;
+    height: 40vh;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border: #900067 solid 2px;
+    background-color: #5b004c;
+  }
+
+  #verzend {
+    position: relative;
+    left: 12vw;
+    top: 35vh;
+    width: 35vw;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: -moz-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: -webkit-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: linear-gradient(to top, #ffdd00 0%, #ff0084 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(41, 41, 41);
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  #contact-box {
+    width: 40vw;
+    height: 40vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+    border-radius: 1vw;
+  }
+
+  .contact {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vw;
+    min-width: 40vw;
+    align-items: center;
+  }
+
+  #contact-box1 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #contact-box2 {
+    font-size: 1.1rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #map {
+    font-size: 5rem;
+    list-style: none;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #text-box {
+    width: 60vw;
+    height: 220vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
+
+@media only screen and (max-width: 400px) {
+
+  #contact-box {
+    width: 40vw;
+    height: 40vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+    border-radius: 1vw;
+  }
+
+  .contact {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vw;
+    min-width: 40vw;
+    align-items: center;
+  }
+
+  #contact-box1 {
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #contact-box2 {
+    font-size: 0.8rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #map {
+    font-size: 4rem;
+    list-style: none;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #text-box {
+    width: 60vw;
+    height: 300vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* ---------------------------------------------- Responsive Query's -------------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
