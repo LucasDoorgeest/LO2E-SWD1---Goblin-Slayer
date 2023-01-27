@@ -924,7 +924,7 @@ table {
 #contact-box1 {
   font-size: 1.4rem;
   text-align: center;
-  color: rgb(124, 59, 113);
+  color: rgb(255, 211, 246);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
@@ -958,7 +958,7 @@ table {
   position: relative;
   top: 10vh;
   padding: 1vw;
-  color: rgb(124, 59, 113);
+  color:rgb(255, 211, 246);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
@@ -1084,7 +1084,7 @@ table {
   transform: translateY(4px);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
 
   #contact-box {
     width: 50vw;
