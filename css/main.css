@@ -65,6 +65,23 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  border-radius: 10vw;
+  height: 10vh;
+  align-self: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgba(238, 255, 0, 0.656), rgba(255, 0, 230, 0.667));
+}
+
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-image: linear-gradient(to right, rgb(77, 0, 88), rgb(22, 0, 73));
+  border-radius: 10vw;
+  height: 10vh;
+  align-self: center;
+  justify-content: center;
 }
 
 .nav-menu {
@@ -78,10 +95,11 @@ li {
 .nav-link {
   text-decoration: none;
   color: whitesmoke;
+  text-shadow: 1px 1px 1px #000000;
   font-size: 1rem;
 }
 
-/* Burgermenu */
+/* Einde Burgermenu */
 
 #logo {
   width: 7.5vw;
@@ -98,9 +116,9 @@ header nav #nav1:hover,
 #nav5:hover,
 #nav6:hover,
 #nav7:hover {
-  padding: 5px;
-  background-color: #81335b;
-  border-radius: 5px;
+  padding: 0.4vw;
+  background-color: #1a0049c2;
+  border-radius: 10vw;
   color: whitesmoke;
 }
 
@@ -111,7 +129,6 @@ header {
   z-index: 10;
 }
 
-#nav1Active,
 #nav2Active,
 #nav3Active,
 #nav4Active,
@@ -120,11 +137,31 @@ header {
 #nav7Active {
   place-self: center;
   font-style: underline;
-  background-color: #81335b;
-  padding: 5px;
-  border-radius: 5px;
+  background-color: #81008f;
+  padding: 0.5vw;
+  border-radius: 10vw;
   color: whitesmoke;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+}
+
+#nav1Active{
+  place-self: center;
+  font-style: underline;
+  background-color: #ad0088;
+  padding: 0.5vw;
+  border-radius: 10vw;
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 768px) {
+
+  .navbar{
+    background: none;
+  }
+
+  .navbar1{
+    background: none;
+  }
 }
 
 /* Einde Header */
@@ -158,7 +195,7 @@ main {
   text-align: center;
   position: relative;
   top: 110vh;
-  left: 40vw;
+  left: 10vw;
   width: 50vw;
 }
 
@@ -502,7 +539,7 @@ table {
   justify-content: center;
   align-items: center;
   gap: 5vh;
-  color: white;
+  color: black;
   margin-top: 5vh;
 }
 
@@ -514,12 +551,15 @@ table {
   height: auto;
   align-items: center;
   width: 30vw;
+  background-color: #f2f2f2;
+  padding: 2vh;
 }
 
 .imgdemo {
   border-radius: 1rem;
   width: 60vw;
   height: 60vh;
+  margin: auto;
 }
 
 .imgdescription {
@@ -551,6 +591,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 5vh;
 }
 
 .ratingh1 {
@@ -562,12 +603,23 @@ table {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column-reverse;
   border: black 2px solid;
-  border-radius: 2rem;
-  width: 50vw;
+  border-radius: 5px;
+  width: 35vw;
   height: 30vh;
   background-color: #f2f2f2;
-  margin: 5vh;
+  margin-top: 5vh;
+}
+
+.ratingleeggoed{
+  display: flex;
+  gap: 50px;
+}
+
+.ratinggoedslecht{
+  display: flex;
+  gap: 50px;
 }
 
 .ratingleeg {
@@ -583,19 +635,20 @@ table {
 }
 
 #geefrating {
-  border-radius: 1rem;
-  padding-left: 5vw;
+  border-radius: 5px;
+  padding: 0 2.5vw;
   height: 10vw;
   width: 25vw;
 }
 
-#ratinggegeven {
+#ratingcomment {
   display: flex;
   background-color: #f2f2f2;
   border: black 2px solid;
   align-items: center;
   justify-content: center;
-  border-radius: 1rem;
+  border-radius: 5px;
+  padding: 0 2.5vw;
   height: 10vw;
   width: 25vw;
 }
@@ -604,13 +657,17 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  border: gray 2px solid;
-  border-radius: 1rem;
-  height: 10vh;
-  width: 10vw;
-  padding: 0 2vh 0 2vh;
-  background-color: white;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.ratinginfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 20vw;
+  margin: 0 2vh;
 }
 
 /* Einde rating geven */
@@ -1027,9 +1084,337 @@ table {
   transform: translateY(4px);
 }
 
+@media only screen and (max-width: 768px) {
+
+  #contact-box {
+    width: 50vw;
+    height: 50vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+    border-radius: 1vw;
+  }
+
+  .contact {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vw;
+    min-width: 40vw;
+    align-items: center;
+  }
+
+  #contact-box1 {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #contact-box2 {
+    font-size: 1.5rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #map {
+    font-size: 9rem;
+    list-style: none;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #text-box {
+    width: 60vw;
+    height: 150vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #voornaam {
+    position: relative;
+    top: 12vh;
+    font-size: 1.3rem;
+    height: 5vh;
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+    align-self: center;
+  }
+
+  #achternaam {
+    position: relative;
+    right: 1vw;
+    top: 16vh;
+    font-size: 1.3rem;
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+    align-self: center;
+  }
+
+  #contact-mail {
+    position: relative;
+    right: 1vw;
+    top: 20vh;
+    font-size: 1.3rem;
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+    align-self: center;
+  }
+
+  #contact-form {
+    position: relative;
+    left: 14vw;
+    top: 25vh;
+    font-size: 1.3rem;
+    width: 30vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-bottom: #900067 solid 2px;
+    background-color: #5b004c;
+  }
+
+  #contact-bericht {
+    position: relative;
+    left: 4.8vw;
+    top: 30vh;
+    font-size: 1.3rem;
+    width: 50vw;
+    height: 40vh;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border: #900067 solid 2px;
+    background-color: #5b004c;
+  }
+
+  #verzend {
+    position: relative;
+    left: 12vw;
+    top: 35vh;
+    width: 35vw;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: -moz-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: -webkit-linear-gradient(top, #ffdd00 0%, #ff0084 100%);
+    background: linear-gradient(to top, #ffdd00 0%, #ff0084 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(41, 41, 41);
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  #contact-box {
+    width: 40vw;
+    height: 40vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+    border-radius: 1vw;
+  }
+
+  .contact {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vw;
+    min-width: 40vw;
+    align-items: center;
+  }
+
+  #contact-box1 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #contact-box2 {
+    font-size: 1.1rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #map {
+    font-size: 5rem;
+    list-style: none;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #text-box {
+    width: 60vw;
+    height: 220vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
+
+@media only screen and (max-width: 450px) {
+
+  #contact-box {
+    width: 40vw;
+    height: 40vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+    border-radius: 1vw;
+  }
+
+  .contact {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vw;
+    min-width: 40vw;
+    align-items: center;
+  }
+
+  #contact-box1 {
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #contact-box2 {
+    font-size: 0.8rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #map {
+    font-size: 4rem;
+    list-style: none;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #text-box {
+    width: 60vw;
+    height: 220vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
+
+@media only screen and (max-width: 400px) {
+
+  #contact-box {
+    width: 40vw;
+    height: 40vw;
+    background-image: linear-gradient(to right, rgb(105, 0, 66), rgb(116, 0, 96));
+    z-index: 4;
+    border-radius: 1vw;
+  }
+
+  .contact {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vw;
+    min-width: 40vw;
+    align-items: center;
+  }
+
+  #contact-box1 {
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(124, 59, 113);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #contact-box2 {
+    font-size: 0.8rem;
+    padding: 1vw;
+    text-align: center;
+    color: rgb(255, 211, 246);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  #map {
+    font-size: 4rem;
+    list-style: none;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #text-box {
+    width: 60vw;
+    height: 300vw;
+    background-color: #5b004c;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    bottom: 10vh;
+    left: 19vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* ---------------------------------------------- Responsive Query's -------------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
+
   #logo {
     height: 15vh;
     width: 15vh;
@@ -1088,8 +1473,6 @@ table {
     object-fit: cover;
   }
 
-
-
   /* -------------------------------------------------- Game Pagina -------------------------------------------------------- */
 
   .descriptionall {
@@ -1100,16 +1483,18 @@ table {
     flex-direction: row;
     border: none;
     justify-content: center;
-    width: 90vw;
+    width: 80vw;
   }
 
   .imgdemo {
-    width: 90vw;
-    height: 60vh;
+    width: 80vw;
+    height: 30vh;
   }
 
   .textinimage {
-    top: 45vh;
+    left: 5vw;
+    top: 20vh;
+    color: whitesmoke;
   }
 
   .informatie {
@@ -1122,8 +1507,8 @@ table {
   }
 
   .ratingall {
-    width: 40vw;
-    height: 20vh;
+    width: 45vw;
+    height: 25vh;
     margin: 1vh;
   }
 
@@ -1135,22 +1520,8 @@ table {
     margin-left: 1vh;
   }
 
-  #geefrating {
-    width: 20vw;
-    padding-left: 0;
-  }
-
-  .ratinggoedslecht {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .ratingleeggoed {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .ratinginfo{
+    gap: 20px;
   }
 }
 
